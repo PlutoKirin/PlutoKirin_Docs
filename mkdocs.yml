@@ -22,5 +22,7 @@ plugins:
   - search
   - git-revision-date-localized:
       fallback_to_build_date: true
-  - wordcount:
+  - statistics:
       enabled: true
+      words_per_minute: 300
+
