@@ -6,9 +6,13 @@ repo_name: GitHub
 theme:
   name: material
   language: zh
+  palette:
+    primary: brown
+    accent: teal
   features:
-    - navigation.tabs
     - navigation.instant
+    - navigation.tabs
+    - search.highlight
     - content.code.copy
 
 nav:
@@ -23,8 +27,19 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
   - statistics:
-      enabled: true
+      page_statistics: true
+      page_read_time: true
+      page_images: true
       words_per_minute: 300
+      codelines_per_minute: 80
+      ignore_languages:
+        - mermaid
+        - math
+
 
 extra_css:
   - overrides/extra.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
