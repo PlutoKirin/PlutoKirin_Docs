@@ -1,0 +1,14 @@
+site_name: PlutoKirin Docs
+site_url: https://PlutoKirin.github.io/PlutoKirin.github.io_MkDocs/
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant     # 快速页面切换
+    - search.highlight       # 搜索高亮
+    - content.code.copy      # 代码复制按钮
+    - content.tabs.link      # Tab 内容支持
+nav:
+  - Homepage: index.md
+  - About: about.md
+  - Tools: tools.md
