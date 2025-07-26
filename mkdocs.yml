@@ -26,3 +26,5 @@ plugins:
       enabled: true
       words_per_minute: 300
 
+extra_css:
+  - overrides/extra.css
