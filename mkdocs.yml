@@ -36,12 +36,7 @@ plugins:
         - mermaid
         - math
 
-extra_css:
-  - overrides/extra.css
-
 markdown_extensions:
-  - toc:
-      permalink: true
   - admonition
   - attr_list
   - pymdownx.emoji:
