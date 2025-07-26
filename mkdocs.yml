@@ -36,7 +36,6 @@ plugins:
         - mermaid
         - math
 
-
 extra_css:
   - overrides/extra.css
 
