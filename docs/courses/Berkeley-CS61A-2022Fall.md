@@ -1,3 +1,4 @@
+# CS61A Note
 # Lecture 1 Computer Science
 ```python
 shakes = open('shekespeare.txt')

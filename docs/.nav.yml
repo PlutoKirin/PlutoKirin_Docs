@@ -1,0 +1,6 @@
+nav:
+  - Homepage: index.md
+  - Courses Notes:
+    - CS61A-2022Fall: courses/Berkeley-CS61A-2022Fall.md
+  - To be classified:
+      - About me: about.md
