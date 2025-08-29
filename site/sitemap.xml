@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://plutokirin.github.io/PlutoKirin_Docs/</loc>
-         <lastmod>2025-07-27</lastmod>
+         <lastmod>2025-08-29</lastmod>
     </url>
     <url>
          <loc>https://plutokirin.github.io/PlutoKirin_Docs/about/</loc>
-         <lastmod>2025-07-27</lastmod>
+         <lastmod>2025-08-29</lastmod>
     </url>
     <url>
          <loc>https://plutokirin.github.io/PlutoKirin_Docs/courses/Berkeley-CS61A-2022Fall/</loc>
-         <lastmod>2025-07-27</lastmod>
+         <lastmod>2025-08-29</lastmod>
+    </url>
+    <url>
+         <loc>https://plutokirin.github.io/PlutoKirin_Docs/projects/%E5%9F%BA%E4%BA%8Epyautogui%E7%9A%84%E6%85%A7%E5%AD%A6%E5%A4%96%E8%AF%ADEtalk%E8%87%AA%E5%8A%A8%E5%AE%9E%E7%8E%B0/</loc>
+         <lastmod>2025-08-29</lastmod>
     </url>
 </urlset>

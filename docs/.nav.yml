@@ -2,5 +2,7 @@ nav:
   - Homepage: index.md
   - Courses Notes:
     - CS61A-2022Fall: courses/Berkeley-CS61A-2022Fall.md
+  - Projects:
+    - 基于pyautogui的慧学外语Etalk自动实现: projects\基于pyautogui的慧学外语Etalk自动实现.md
   - To be classified:
       - About me: about.md
