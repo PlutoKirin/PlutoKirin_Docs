@@ -1,5 +1,5 @@
 # CS61A Note
-# Lecture 1 Computer Science
+## Lecture 1 Computer Science
 ```python
 shakes = open('shekespeare.txt')
 text = shakes.read().split()
@@ -9,7 +9,7 @@ words=set(text)
 # in a set something only shows up once
 
 ```
-# Lecture 2 Functions
+## Lecture 2 Functions
 ```python
 max(2,4)
 min(-2,50000)
@@ -18,7 +18,7 @@ add(2,3)
 mul(2,3)
 max(1,2,3,4,5)
 ```
-# Lecture 3 Control
+## Lecture 3 Control
 ```python
 None
 # noting
@@ -69,7 +69,7 @@ mod(2024,10)
 ```
 去学vim！
 
-## Conditional statement
+### Conditional statement
 what's demo? demonstration——演示
 ```python
 def absolute_value(x):
@@ -83,7 +83,7 @@ def absolute_value(x):
 False values in Python: `False`, `0` , `''`, `None`
 True values in Python: Anything else
 
-## Iteration
+### Iteration
 ```python
 i,total=0,0
 while i<3:
@@ -91,8 +91,8 @@ while i<3:
 	total=total+i
 ```
 
-# Lecture 4 Higher-Order Functions
-## Prime Factorization
+## Lecture 4 Higher-Order Functions
+### Prime Factorization
 ```python
 """My code"""
 """
@@ -129,7 +129,7 @@ def smallest_prime_factor(n):
 		k=k+1
 	return k
 ```
-## The Fibonacci Sequence
+### The Fibonacci Sequence
 0, 1, 1, 2, 3, 5, 8, 13 etc.
 Demo
 ```python
@@ -142,10 +142,10 @@ def fib(n):
 		k=k+1
 	return curr
 ```
-# Lecture 5 Environments
+## Lecture 5 Environments
 ![[Pasted image 20250225102308.png]]
 
-## Environments for Nested Definitions
+### Environments for Nested Definitions
 ```python
 def make_adder(n):
 	def adder(k):
@@ -155,14 +155,14 @@ add_three = make_adder(3)
 add_three(4)
 ```
 
-## Local Names
-## Function Compostion
-## Lambda Expressions
+### Local Names
+### Function Compostion
+### Lambda Expressions
 Lambda 表达式是通过指定两个 things：参数和 return 表达式。
 ```python
 lambda <parameters>: <return expression>
 ```
-## Currying
+### Currying
 ```python
 def make_adder(n):
 	return lambda k: n+k
@@ -177,8 +177,8 @@ def curry2(f):
 	return g
 ```
 
-# Lecture ? Recursion
-## Self-Reference
+## Lecture ? Recursion
+### Self-Reference
 ```python
 def print_sums(x):
 	print(x)
@@ -190,7 +190,7 @@ print_sums(1)(3)(5)
 # output 1 4 9
 ```
 
-## Recursive Functions
+### Recursive Functions
 ```python
 def split(n):
 	return n // 10, n % 10
@@ -211,7 +211,7 @@ def sum_digits(n):
 	
 ```
 
-## Recursion in Environment Diagrams
+### Recursion in Environment Diagrams
 
 ```python
 def fact(n):
@@ -222,14 +222,14 @@ def fact(n):
 print(fact(3))
 ```
 
-## Verifying Recursive Functions
+### Verifying Recursive Functions
 > [!note] Is fact implemented correctly?
 > 1. Verify the base case.
 > 2. Treat fact as a functional abstraction!
 > 3. Assume that fact(n-1) is correct.
 > 4. Verify that fact(n) is correct, assuming that fact(n-1) correct.
 
-## Mutual Recursion
+### Mutual Recursion
 ```python
 def luhn_sum(n):
 	if n < 10:
@@ -247,7 +247,7 @@ def luhn_sum_double(n):
 
 ```
 
-## Recursion and Iteration
+### Recursion and Iteration
 ```Python
 def sum_digits_iter(n):
 	digit_sum = 0
@@ -257,8 +257,8 @@ def sum_digits_iter(n):
 	return digit_sum
 ```
 
-# Lecture ? Tree Recursion
-##  Order of Recursive Calls
+## Lecture ? Tree Recursion
+###  Order of Recursive Calls
 <mark style="background: #FFF3A3A6;">cascade function</mark>
 ```python
 def cascade(n):
@@ -279,7 +279,7 @@ def cascade(n):
 		print(n)
 print(cascade(12345))
 ```
-## Example: Inverse Cascade
+### Example: Inverse Cascade
 ```python
 '''
 1
@@ -302,7 +302,7 @@ grow = lambda n: f_then_g(grow,print,n//10)
 shrink = lambda n: f_then_g(print,shrink,n//10)
 ```
 
-## Tree Recursion
+### Tree Recursion
 ```python
 '''
 fibonacci numbers
@@ -323,7 +323,7 @@ def fib(n):
 	else:
 		return fib(n-2) + fib(n-1)
 ```
-## Example: Counting Partitions
+### Example: Counting Partitions
 ![[Pasted image 20250305221056.png]]
 
 Tree recursion often involves exploring different choices.
@@ -342,8 +342,8 @@ def count_partitions(n,m):
 		return with_m + without_m
 ```
 
-# Lecture ? Sequences
-## Lists
+## Lecture ? Sequences
+### Lists
 ```python
 digits = [1,8,2,8]
 digits = [2//2,2+2+2+2,2,2*2]
@@ -362,7 +362,7 @@ pairs = [ [10,20] , [30,40] ]
 pairs[1] # equals [30,40]
 pairs[1][0] # equals 30
 ```
-## Containers
+### Containers
 ```python
 digits = [1,8,2,8]
 1 in digits # True
@@ -372,7 +372,7 @@ digits = [1,8,2,8]
 [1,2] in [3,[1,2],4] # True
 ```
 `in` just goes element by element and sees whether it's equal to the element you're looking for.
-## For Statements
-## Ranges
-## List Comprehensions
-## Lists, Slices, & Recursion
+### For Statements
+### Ranges
+### List Comprehensions
+### Lists, Slices, & Recursion
