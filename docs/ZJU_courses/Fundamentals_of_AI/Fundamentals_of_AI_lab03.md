@@ -1,4 +1,14 @@
-# 人工智能基础(A)-lab3-sklearn-学习指南
+---
+title: 人工智能基础（A）-lab3-sklearn-学习指南
+created: 2025/03/26
+last_modified: 2025/09/01
+tags:
+  - ZJU
+  - Fundamentals_of_AI
+author: PlutoKirin
+summary: 24-25春夏学期人工智能基础（A）lab3食用指南
+---
+# 人工智能基础（A）-lab3-sklearn-学习指南
 ## 前言
 （截至至2025年春夏学期）本课程还是面临着课堂与实践过于割裂的问题，课程提供的 lab 文档也存在一些语法错误与渲染问题，下面我将勘误版附上，非本课程的同学们也可以体验下 lab
 

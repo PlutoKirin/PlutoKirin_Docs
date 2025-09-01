@@ -1,3 +1,13 @@
+---
+title: Homepage
+created: 2025/07/26
+last_modified: 2025/09/01
+tags:
+  - # ZJU
+author: PlutoKirin
+summary: 欢迎欢迎！
+---
+
 # Welcome to PlutoKirin's docs
 
 > PlutoKirin 的知识笔记站 🌟

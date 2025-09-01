@@ -1,3 +1,15 @@
+---
+title: 24-25夏 常微分方程（1学分）丨郜传厚 笔记与修读经验分享
+created: 2025/06/22
+last_modified: 2025/08/28
+tags:
+  - ZJU
+  - Math
+  - ODE
+author: PlutoKirin
+summary: 24-25 夏学期 ODE 修读经验贴
+---
+
 # 24-25夏 常微分方程（1学分）丨郜传厚 笔记与修读经验分享
 
 ## 前言

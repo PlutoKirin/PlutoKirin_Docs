@@ -1,0 +1,30 @@
+.doc-footer-note {
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color--lighter);
+    margin-top: 1.5em;
+    text-align: left;
+    display: inline-flex;
+    /* 改为 inline-flex 自适应宽度 */
+    gap: 1.5em;
+    /* 时间之间的间距 */
+    align-items: center;
+    flex-wrap: wrap;
+    /* 小屏幕自动换行 */
+    max-width: 100%;
+    /* 防止超过内容区域 */
+}
+
+.doc-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    /* 图标和文字的间距 */
+}
+
+.doc-meta-icon svg {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    fill: var(--md-default-fg-color--lighter);
+    /* 和文字颜色统一 */
+}

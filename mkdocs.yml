@@ -5,16 +5,31 @@ repo_name: PlutoKirin_Docs
 
 theme:
   name: material
+  custom_dir: overrides
   language: zh
   palette:
-    primary: blue grey
-    accent: teal
+    - scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
+    - palette.toggle
     - navigation.tabs
     - navigation.top
     - navigation.indexes
     - search.highlight
     - content.code.copy
+
+extra_css:
+  - css/extra.css
 
 # nav has been moved to .nav.yml
 
@@ -32,6 +47,7 @@ plugins:
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
+  - js/relative-time.js
 
 # Markdown Extensions
 markdown_extensions:
@@ -81,3 +97,5 @@ markdown_extensions:
 
   - pymdownx.arithmatex:
       generic: true
+  
+  - meta
