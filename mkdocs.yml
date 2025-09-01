@@ -12,6 +12,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.top
+    - navigation.indexes
     - search.highlight
     - content.code.copy
 
@@ -27,6 +28,10 @@ plugins:
   - awesome-nav
   - blogging
   - callouts
+
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
 
 # Markdown Extensions
 markdown_extensions:
@@ -65,6 +70,7 @@ markdown_extensions:
   
   - admonition
   - attr_list
+
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -72,3 +78,6 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3
+
+  - pymdownx.arithmatex:
+      generic: true

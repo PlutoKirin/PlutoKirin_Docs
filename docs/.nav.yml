@@ -1,7 +1,10 @@
 nav:
   - Homepage: index.md
   - ZJU Courses:
-    - Overview: ZJU_courses/ZJU_courses_profile.md
+    - ZJU_courses/index.md
+    - 24-25春夏 人工智能基础A（2.5学分）: 
+      - ZJU_courses/Fundamentals_of_AI/index.md
+      - 人工智能基础(A)-lab3-sklearn-学习指南: ZJU_courses/Fundamentals_of_AI/Fundamentals_of_AI_lab03.md
     - 24-25夏 常微分方程（1学分）: ZJU_courses/24-25_Summer_ODE_Chuanhou_Gao.md
   - Courses Notes:
     - CS61A-2022Fall: courses/Berkeley-CS61A-2022Fall.md

@@ -23,7 +23,7 @@
 下面我将我的笔记放出，大家可以自取。
 <iframe src="../ODE_Notes_by_LioraBard.pdf" width="100%" height="600px"></iframe>
 
-[这是 CC98 对应帖子链接](https://www.cc98.org/topic/6222919){target=_blank}
+[这是 CC98 对应帖子链接](https://www.cc98.org/topic/6222919)
 
 ## 课程修读感受
 郜传厚老师讲的真的很清楚，如果习惯听讲学习的同学可以全程跟着，如果另有安排（狗头）的同学也可以自学，至少我这学期郜老师除了期中测试没点过名
