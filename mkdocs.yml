@@ -8,13 +8,19 @@ theme:
   custom_dir: overrides
   language: zh
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to system mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: blue grey
       accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: black
       accent: indigo
       toggle:
@@ -22,7 +28,6 @@ theme:
         name: Switch to light mode
   features:
     - palette.toggle
-    - automatic-color-scheme
     - navigation.tabs
     - navigation.top
     - navigation.indexes
