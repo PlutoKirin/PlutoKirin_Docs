@@ -24,6 +24,15 @@ nav:
       - Chapter12_羰基a-碳上的反应: ZJU_courses/Organic_Chemistry/Chapter12_羰基a-碳上的反应.md
       - Chapter13_胺及其衍生物: ZJU_courses/Organic_Chemistry/Chapter13_胺及其衍生物.md
       - Chapter14_杂环化合物: ZJU_courses/Organic_Chemistry/Chapter14_杂环化合物.md
+    - 25-26秋冬 概率论与数理统计（2.5学分）:
+      - ZJU_courses/Probability_Theory_and_Mathematical_Statistics/index.md
+      - Chapter01_概率论的基本概念: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter01_概率论的基本概念.md
+      - Chapter02_随机变量及其概率分布: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter02_随机变量及其概率分布.md
+      - Chapter03_多元随机变量及其分布: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter03_多元随机变量及其分布.md
+      - Chapter04_随机变量的数字特征: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter04_随机变量的数字特征.md
+      - Chapter05_大数定律和中心极限定理: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter05_大数定律和中心极限定理.md
+      - Chapter06_数理统计的基本概念: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter06_数理统计的基本概念.md
+      - Chapter07_参数估计: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter07_参数估计.md
   - Courses Notes:
     - CS61A-2022Fall: courses/Berkeley-CS61A-2022Fall.md
   - Projects:
