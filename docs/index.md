@@ -1,7 +1,7 @@
 ---
 title: Homepage
 created: 2025/07/26
-last_modified: 2025/12/20
+last_modified: 2025/12/23
 tags:
   - # ZJU
 author: PlutoKirin
@@ -25,3 +25,4 @@ summary: 欢迎欢迎！
 | 2025/12/19   | 有机化学笔记v251218更新                     |
 | 2025/12/20   | 概统笔记v251220更新                       |
 | 2025/12/21   | 读书笔记更新：高效能法则_Ali_Abdaal             |
+| 2025/12/23   | 有机化学笔记v251224更新：第十五章、第十六章           |
