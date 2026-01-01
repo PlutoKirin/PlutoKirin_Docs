@@ -5,10 +5,10 @@ nav:
     - 24-25春夏 人工智能基础A（2.5学分）: 
       - ZJU_courses/Fundamentals_of_AI/index.md
       - 人工智能基础(A)-lab3-sklearn-学习指南: ZJU_courses/Fundamentals_of_AI/Fundamentals_of_AI_lab03.md
-    - 24-25夏 分析化学（乙）（2.0学分）: ZJU_courses/24-25_Summer_Analytical_Chemistry_Guangzhong_Ma.md
-    - 24-25夏 常微分方程（1.0学分）: ZJU_courses/24-25_Summer_ODE_Chuanhou_Gao.md
     - 24-25春夏 工程训练（1.5学分） WEDM: ZJU_courses/24-25_Spring-Summer_Engineering_Training_WEDM.md
     - 24-25春 奇妙分子与科学创新（1.5学分）: ZJU_courses/24-24_Spring_Wonderful_Molecule_Qi_Wu.md
+    - 24-25夏 分析化学（乙）（2.0学分）: ZJU_courses/24-25_Summer_Analytical_Chemistry_Guangzhong_Ma.md
+    - 24-25夏 常微分方程（1.0学分）: ZJU_courses/24-25_Summer_ODE_Chuanhou_Gao.md
 #    - 25-26秋冬 大学物理（乙）Ⅱ（3.0学分）:
 #      - ZJU_courses/University_Physics_B_Ⅱ/index.md
 #      - 电磁学_大物乙Ⅱ: ZJU_courses/University_Physics_B_Ⅱ/电磁学_大物乙ⅡNote.md
@@ -45,6 +45,7 @@ nav:
   - Courses Notes:
     - CS61A-2022Fall: courses/Berkeley-CS61A-2022Fall.md
   - Reading Journal:
+    - Reading_Journal/index.md
     - 《高效能法则》[英] Ali Abdaal: Reading_Journal/[CN]_高效能法则_Ali_Abdaal.md
   - Projects:
     - 基于pyautogui的慧学外语Etalk自动实现: projects/基于pyautogui的慧学外语Etalk自动实现.md

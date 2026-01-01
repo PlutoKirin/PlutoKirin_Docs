@@ -6,7 +6,7 @@ repo_name: PlutoKirin_Docs
 theme:
   name: material
   custom_dir: overrides
-  language: zh
+  language: en
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -99,7 +99,7 @@ markdown_extensions:
 
   - toc:
       permalink: true
-      toc_depth: 3
+      toc_depth: 6
 
   - pymdownx.arithmatex:
       generic: true
