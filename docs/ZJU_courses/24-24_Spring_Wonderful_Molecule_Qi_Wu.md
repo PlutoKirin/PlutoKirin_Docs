@@ -9,6 +9,8 @@ author: PlutoKirin
 summary: # summary here
 ---
 
+# 24-25春 奇妙分子与科学创新（1.5学分） 修读感悟与期末卷
+
 [CC98 原帖链接](https://www.cc98.org/topic/6167386)
 ## 课程修读感悟
 - 作为通识课，本课程主要围绕包括药物分子、高分子、染料与激素等各类分子展开介绍
