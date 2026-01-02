@@ -1,5 +1,5 @@
 ---
-title: 人工智能基础（A）
+title: 24-25春夏 人工智能基础（A）（2.5学分）
 created: 2025/09/01
 last_modified: 2025/09/01
 tags:

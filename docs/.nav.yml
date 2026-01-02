@@ -2,20 +2,20 @@ nav:
   - Home: index.md
   - ZJU Courses:
     - ZJU_courses/index.md
-    - 24-25春夏 人工智能基础A（2.5学分）: 
+    - 人工智能基础A: 
       - ZJU_courses/Fundamentals_of_AI/index.md
       - 人工智能基础(A)-lab3-sklearn-学习指南: ZJU_courses/Fundamentals_of_AI/Fundamentals_of_AI_lab03.md
-    - 24-25春夏 工程训练（1.5学分） WEDM: ZJU_courses/24-25_Spring-Summer_Engineering_Training_WEDM.md
-    - 24-25春 奇妙分子与科学创新（1.5学分）: ZJU_courses/24-24_Spring_Wonderful_Molecule_Qi_Wu.md
-    - 24-25夏 分析化学（乙）（2.0学分）: ZJU_courses/24-25_Summer_Analytical_Chemistry_Guangzhong_Ma.md
-    - 24-25夏 常微分方程（1.0学分）: ZJU_courses/24-25_Summer_ODE_Chuanhou_Gao.md
+    - 工程训练：WEDM: ZJU_courses/24-25_Spring-Summer_Engineering_Training_WEDM.md
+    - 奇妙分子与科学创新: ZJU_courses/24-24_Spring_Wonderful_Molecule_Qi_Wu.md
+    - 分析化学（乙）: ZJU_courses/24-25_Summer_Analytical_Chemistry_Guangzhong_Ma.md
+    - 常微分方程: ZJU_courses/24-25_Summer_ODE_Chuanhou_Gao.md
 #    - 25-26秋冬 大学物理（乙）Ⅱ（3.0学分）:
 #      - ZJU_courses/University_Physics_B_Ⅱ/index.md
 #      - 电磁学_大物乙Ⅱ: ZJU_courses/University_Physics_B_Ⅱ/电磁学_大物乙ⅡNote.md
 #      - 光学_大物乙Ⅱ: ZJU_courses/University_Physics_B_Ⅱ/光学_大物乙ⅡNote.md
 #      - 原子物理基础_大物乙Ⅱ: ZJU_courses/University_Physics_B_Ⅱ/原子物理基础_大物乙ⅡNote.md
 #      - 量子力学基础_大物乙Ⅱ: ZJU_courses/University_Physics_B_Ⅱ/量子力学基础_大物乙ⅡNote.md
-    - 25-26秋冬 有机化学（4.0学分）: 
+    - 有机化学: 
       - ZJU_courses/Organic_Chemistry/index.md
       - Chapter01_有机化合物分子结构基础: ZJU_courses/Organic_Chemistry/Chapter01_有机化合物分子结构基础.md
       - Chapter02_脂肪烃和脂环烃: ZJU_courses/Organic_Chemistry/Chapter02_脂肪烃和脂环烃.md
@@ -32,7 +32,7 @@ nav:
       - Chapter14_杂环化合物: ZJU_courses/Organic_Chemistry/Chapter14_杂环化合物.md
       - Chapter15_生物有机化学(Ⅰ)-碳水化合物: ZJU_courses/Organic_Chemistry/Chapter15_生物有机化学(Ⅰ)-碳水化合物.md
       - Chapter16_生物有机化学(Ⅱ)-氨基酸、肽、蛋白质及核酸: ZJU_courses/Organic_Chemistry/Chapter16_生物有机化学(Ⅱ)-氨基酸、肽、蛋白质及核酸.md
-    - 25-26秋冬 概率论与数理统计（2.5学分）:
+    - 概率论与数理统计:
       - ZJU_courses/Probability_Theory_and_Mathematical_Statistics/index.md
       - Chapter01_概率论的基本概念: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter01_概率论的基本概念.md
       - Chapter02_随机变量及其概率分布: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter02_随机变量及其概率分布.md
