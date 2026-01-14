@@ -3,12 +3,12 @@ nav:
   - ZJU Courses:
     - ZJU_courses/index.md
     - 人工智能基础A: 
-      - ZJU_courses/Fundamentals_of_AI/index.md
-      - 人工智能基础(A)-lab3-sklearn-学习指南: ZJU_courses/Fundamentals_of_AI/Fundamentals_of_AI_lab03.md
-    - 工程训练：WEDM: ZJU_courses/24-25_Spring-Summer_Engineering_Training_WEDM.md
-    - 奇妙分子与科学创新: ZJU_courses/24-24_Spring_Wonderful_Molecule_Qi_Wu.md
-    - 分析化学（乙）: ZJU_courses/24-25_Summer_Analytical_Chemistry_Guangzhong_Ma.md
-    - 常微分方程: ZJU_courses/24-25_Summer_ODE_Chuanhou_Gao.md
+      - ZJU_courses/Fundamentals_of_AI(A)\index.md
+      - 人工智能基础(A)-lab3-sklearn-学习指南: ZJU_courses/Fundamentals_of_AI(A)/Fundamentals_of_AI_lab03.md
+    - 工程训练：WEDM: ZJU_courses/Engineering_Training/24-25_Spring-Summer_Engineering_Training_WEDM.md
+    - 奇妙分子与科学创新: ZJU_courses/Wonderful_Molecule/Wonderful_Molecule.md
+    - 分析化学（乙）: ZJU_courses/Analytical_Chemistry_(B)/Analytical_Chemistry_(B).md
+    - 常微分方程: ZJU_courses/Ordinary_Differential_Equation/ODE.md
 #    - 25-26秋冬 大学物理（乙）Ⅱ（3.0学分）:
 #      - ZJU_courses/University_Physics_B_Ⅱ/index.md
 #      - 电磁学_大物乙Ⅱ: ZJU_courses/University_Physics_B_Ⅱ/电磁学_大物乙ⅡNote.md
@@ -27,11 +27,14 @@ nav:
       - Chapter09_醇酚醚: ZJU_courses/Organic_Chemistry/Chapter09_醇酚醚.md
       - Chapter10_醛和酮-亲核加成反应: ZJU_courses/Organic_Chemistry/Chapter10_醛和酮-亲核加成反应.md
       - Chapter11_羧酸及其衍生物: ZJU_courses/Organic_Chemistry/Chapter11_羧酸及其衍生物.md
-      - Chapter12_羰基a-碳上的反应: ZJU_courses/Organic_Chemistry/Chapter12_羰基a-碳上的反应.md
+      - Chapter12_羰基a-碳上的反应: ZJU_courses/Organic_Chemistry/Chapter12_羰基α-碳上的反应.md
       - Chapter13_胺及其衍生物: ZJU_courses/Organic_Chemistry/Chapter13_胺及其衍生物.md
       - Chapter14_杂环化合物: ZJU_courses/Organic_Chemistry/Chapter14_杂环化合物.md
       - Chapter15_生物有机化学(Ⅰ)-碳水化合物: ZJU_courses/Organic_Chemistry/Chapter15_生物有机化学(Ⅰ)-碳水化合物.md
       - Chapter16_生物有机化学(Ⅱ)-氨基酸、肽、蛋白质及核酸: ZJU_courses/Organic_Chemistry/Chapter16_生物有机化学(Ⅱ)-氨基酸、肽、蛋白质及核酸.md
+    - 物理化学（EN）:
+      - ZJU_courses/Physical_Chemistry_(EN)/index.md
+      - 物化期末微雕: ZJU_courses/Physical_Chemistry_(EN)/Physical_Chemistry_Final_Micro_Notes.md
     - 概率论与数理统计:
       - ZJU_courses/Probability_Theory_and_Mathematical_Statistics/index.md
       - Chapter01_概率论的基本概念: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter01_概率论的基本概念.md
