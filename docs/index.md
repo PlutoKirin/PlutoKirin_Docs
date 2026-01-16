@@ -14,6 +14,12 @@ summary: 欢迎欢迎！
 
 本站施工中……
 
+## Recommended Articles
+- [科研导论01_by小博士Awake](notes/SRN01.md)
+- [Reading Journal: 《高效能法则》[英] Ali Abdaal](Reading_Journal/[CN]_高效能法则_Ali_Abdaal.md)
+- [Whoami](about.md)
+
+
 ## Updated Diary
 
 | Date       | Updated document                             |
