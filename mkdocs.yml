@@ -47,7 +47,7 @@ plugins:
       codelines_per_minute: 80
   - search
   - awesome-nav
-  - blogging
+#  - blogging
   - callouts
 
 
