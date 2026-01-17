@@ -2612,8 +2612,7 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="例题2：三棱镜顶角测量计算题">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
   <a href="#3_3" class="md-nav__link">
@@ -2623,11 +2622,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -3923,8 +3917,7 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="例题2：三棱镜顶角测量计算题">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
   <a href="#3_3" class="md-nav__link">
@@ -3934,11 +3927,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -4012,13 +4000,15 @@
 <li>小量</li>
 <li>无法得到误差值（因真值常常未知）</li>
 </ol>
+<hr />
 <h4 id="_5">误差的定义<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
 <ol>
 <li>绝对误差：<span class="arithmatex">\(\text{绝对误差 = 测量值 - 真值}\)</span></li>
 <li>相对误差（无符号、无单位）：<span class="arithmatex">\(\text{相对误差}=\frac{\text{测量值} - \text{真值}}{\text{真值}} \times 100\%\)</span></li>
-<li>标准误差（亦称标准差或均方根误差，仅在有限次测量下使用）
-$<span class="arithmatex">\(\text{标准误差}=\sqrt{\frac{1}{n-1}\sum_{i=1}^{n}|\text{绝对误差}|^2}\)</span>$</li>
+<li>标准误差（亦称标准差或均方根误差，仅在有限次测量下使用）</li>
 </ol>
+<div class="arithmatex">\[\text{标准误差}=\sqrt{\frac{1}{n-1}\sum_{i=1}^{n}|\text{绝对误差}|^2}\]</div>
+<hr />
 <h4 id="_6">误差的来源和分类<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
 <table>
 <thead>
@@ -4078,38 +4068,52 @@ $<span class="arithmatex">\(\text{标准误差}=\sqrt{\frac{1}{n-1}\sum_{i=1}^{n
 </tr>
 </tbody>
 </table>
+<hr />
 <h4 id="_7">误差分布函数<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
-<ol>
-<li>均匀分布（矩形分布）
-    $<span class="arithmatex">\(f(x)=K\;(-a&lt;x&lt;+a)\)</span>$</li>
-<li>正态分布（高斯分布）
-    $<span class="arithmatex">\(f(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}\)</span>$
-    测量值的均值<span class="arithmatex">\(\mu\)</span>看做真值（无穷次测量）<ul>
+<ul>
+<li>均匀分布（矩形分布）</li>
+</ul>
+<div class="arithmatex">\[f(x)=K\;(-a&lt;x&lt;+a)\]</div>
+<ul>
+<li>正态分布（高斯分布）</li>
+</ul>
+<div class="arithmatex">\[f(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}\]</div>
+<ul>
+<li>测量值的均值<span class="arithmatex">\(\mu\)</span>看做真值（无穷次测量）<ul>
 <li>单峰性</li>
 <li>对称性</li>
 <li>有界性：非常大的误差出现概率几乎为0</li>
 <li>抵偿性：测量次数足够多时，正负误差几乎抵消为0，所以将<span class="arithmatex">\(\mu\)</span>看做真值</li>
 </ul>
 </li>
-</ol>
+</ul>
+<hr />
 <h4 id="_8">正态分布的理论情况<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h4>
-<p>物理量<span class="arithmatex">\(X\)</span>，<span class="arithmatex">\(n\to \infty\)</span>，独立测量的测量值为<span class="arithmatex">\(x_1,x_2,\dots,x_i,\dots.x_n\)</span></p>
+<p>物理量<span class="arithmatex">\(X\)</span>，<span class="arithmatex">\(n\to \infty\)</span>，独立测量的测量值为 <span class="arithmatex">\(x_1,x_2,\dots,x_i,\dots.x_n\)</span></p>
 <p>分布函数（概率分布函数）：<span class="arithmatex">\(f(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}\)</span></p>
-<p><span class="arithmatex">\(x_i\)</span>们中出现概率最大的值为<span class="arithmatex">\(\mu\)</span>，<span class="arithmatex">\(\mu\)</span>通常被当作近似真值</p>
+<p><span class="arithmatex">\(x_i\)</span> 们中出现概率最大的值为 <span class="arithmatex">\(\mu\)</span>，<span class="arithmatex">\(\mu\)</span> 通常被当作近似真值</p>
 <div class="arithmatex">\[x_i们的数学期望:\mu=\lim_{n\to\infty}\frac{1}{n}\sum^{n}_{i=1}x_i\]</div>
-<p><span class="arithmatex">\(x_i\)</span>们的分散程度（相对于<span class="arithmatex">\(\mu\)</span>），<span class="arithmatex">\(\sigma\)</span>决定了线型的宽窄</p>
+<p><span class="arithmatex">\(x_i\)</span> 们的分散程度（相对于 <span class="arithmatex">\(\mu\)</span> ），<span class="arithmatex">\(\sigma\)</span> 决定了线型的宽窄</p>
 <div class="arithmatex">\[正态分布的标准差:\sigma=\lim_{n\to\infty}\sqrt{\frac{1}{n}\sum^{n}_{i=1}(x_i-\bar{x})^2}\]</div>
-<p>任意测一次的值落在<span class="arithmatex">\([\mu-\sigma,\mu+\sigma]\)</span>内的概率<span class="arithmatex">\(P=\int^{\mu+\sigma}_{\mu-\sigma}f(x)dx=68.3\%\)</span></p>
+<p>任意测一次的值落在<span class="arithmatex">\([\mu-\sigma,\mu+\sigma]\)</span>内的概率 <span class="arithmatex">\(P=\int^{\mu+\sigma}_{\mu-\sigma}f(x)dx=68.3\%\)</span></p>
+<div class="arithmatex">\[68\%\text{在 25-26秋冬 期末考试中出现过，只不过人尽皆知罢了😒}\]</div>
 <p>随机误差在范围<span class="arithmatex">\([-\sigma,+\sigma]\)</span>内的概率是68.3%</p>
+<hr />
 <h4 id="_9">正态分布实际应用<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
-<p>物理量<span class="arithmatex">\(X\)</span>，有限次<span class="arithmatex">\(n\)</span>独立测量的测量值为<span class="arithmatex">\(x_1,x_2,\dots,x_i,\dots.x_n\)</span></p>
+<p>物理量<span class="arithmatex">\(X\)</span>，有限次<span class="arithmatex">\(n\)</span>独立测量的测量值为 <span class="arithmatex">\(x_1,x_2,\dots,x_i,\dots.x_n\)</span></p>
 <ul>
-<li>平均值：<span class="arithmatex">\(\mu=\lim_{n\to \infty}\frac{1}{n}\sum_{i=1}^{n}x_i\)</span>
-    真值<span class="arithmatex">\(\mu\)</span>的最佳估计值，作为测量结果使用</li>
-<li>单次测量标准差：<span class="arithmatex">\(S(x_i)=\sqrt{\frac{1}{n-1}\sum^{n}_{i=1}(x_i-\bar{x})^2}\)</span>
-    测量若干次中任意某一次结果<span class="arithmatex">\(x_i\)</span>相对于<span class="arithmatex">\(\bar{x}\)</span>的偏离程度</li>
-<li>平均值标准差：<span class="arithmatex">\(S(\bar{x})=\frac{S(x_i)}{\sqrt{n}}=\sqrt{\frac{1}{n(n-1)}\sum^{n}_{i=1}(x_i-\bar{x})^2}\)</span>
-    <span class="arithmatex">\(\bar{x}\)</span>具有分散性，即<span class="arithmatex">\(\bar{x}\)</span>与真值<span class="arithmatex">\(\mu\)</span>的偏离程度，用以评估算出的<span class="arithmatex">\(\bar{x}\)</span>的优异程度</li>
+<li>平均值：<span class="arithmatex">\(\mu=\lim_{n\to \infty}\frac{1}{n}\sum_{i=1}^{n}x_i\)</span><ul>
+<li>真值<span class="arithmatex">\(\mu\)</span>的最佳估计值，作为测量结果使用</li>
+</ul>
+</li>
+<li>单次测量标准差：<span class="arithmatex">\(S(x_i)=\sqrt{\frac{1}{n-1}\sum^{n}_{i=1}(x_i-\bar{x})^2}\)</span><ul>
+<li>测量若干次中任意某一次结果<span class="arithmatex">\(x_i\)</span>相对于<span class="arithmatex">\(\bar{x}\)</span>的偏离程度</li>
+</ul>
+</li>
+<li>平均值标准差：<span class="arithmatex">\(S(\bar{x})=\frac{S(x_i)}{\sqrt{n}}=\sqrt{\frac{1}{n(n-1)}\sum^{n}_{i=1}(x_i-\bar{x})^2}\)</span><ul>
+<li><span class="arithmatex">\(\bar{x}\)</span> 具有分散性，即<span class="arithmatex">\(\bar{x}\)</span>与真值<span class="arithmatex">\(\mu\)</span>的偏离程度，用以评估算出的<span class="arithmatex">\(\bar{x}\)</span>的优异程度</li>
+</ul>
+</li>
 </ul>
 <div class="admonition question">
 <p class="admonition-title">为什么是 <span class="arithmatex">\(n-1\)</span> ？</p>
@@ -4122,20 +4126,26 @@ $<span class="arithmatex">\(\text{标准误差}=\sqrt{\frac{1}{n-1}\sum_{i=1}^{n
 </ul>
 </div>
 <p>永远不知道真值 <span class="arithmatex">\(\mu\)</span>，只能通过有限次测量得到 <span class="arithmatex">\(\bar{x}\)</span>，用 <span class="arithmatex">\(S(x_i)\)</span> 表示单次测量的精密度，用 <span class="arithmatex">\(S(\bar{x})\)</span> 表示平均值的可靠程度。</p>
+<hr />
 <h3 id="_10">测量的不确定度<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
 <h4 id="definition-of-uncertainty">Definition of uncertainty<a class="headerlink" href="#definition-of-uncertainty" title="Permanent link">&para;</a></h4>
 <p>不确定度是一定概率下的误差极限值，反映了可能存在的误差分布范围，即随机误差分量和未定系统误差的联合分布范围。</p>
 <p>随机误差带来A类不确定度<span class="arithmatex">\(u_A\)</span>，除了A类都是B类，本书只考虑<strong>仪器允差</strong>带来的不确定度</p>
-<p>不确定分类
-- 直接测量量的标准不确定度<span class="arithmatex">\(u=\sqrt{u_A^2+u_B^2}\)</span>
-- 间接测量量的合成标准不确定度<span class="arithmatex">\(u_c\)</span>
-- 扩展不确定度 <span class="arithmatex">\(U\)</span></p>
+<ul>
+<li>不确定分类：<ul>
+<li>直接测量量的标准不确定度<span class="arithmatex">\(u=\sqrt{u_A^2+u_B^2}\)</span></li>
+<li>间接测量量的合成标准不确定度<span class="arithmatex">\(u_c\)</span></li>
+<li>扩展不确定度 <span class="arithmatex">\(U\)</span></li>
+</ul>
+</li>
+</ul>
+<hr />
 <h4 id="calculation-of-uncertainty">Calculation of Uncertainty<a class="headerlink" href="#calculation-of-uncertainty" title="Permanent link">&para;</a></h4>
 <h5 id="_11">直接测量<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h5>
-<p>各直接测量<span class="arithmatex">\(X_k\)</span>量的<span class="arithmatex">\(u_A(X_k),u_B(X_k) \to u(X_k)\)</span>
-$<span class="arithmatex">\(\bar{x}=\frac{1}{n}\sum_{i=1}^nx_i\to u_A(X)=S(\bar{x})=\sqrt{\frac{1}{n(n-1)}\sum^{n}_{i=1}(x_i-\bar{x})^2}\)</span>$
-$<span class="arithmatex">\(\Delta_仪,\text{which will be provided}\to u_B(X)=\frac{\Delta_仪}{\sqrt{3}}\)</span>$
-$<span class="arithmatex">\(u=\sqrt{u_A^2+u_B^2}\)</span>$</p>
+<p>各直接测量 <span class="arithmatex">\(X_k\)</span> 量的 <span class="arithmatex">\(u_A(X_k),u_B(X_k) \to u(X_k)\)</span></p>
+<div class="arithmatex">\[\bar{x}=\frac{1}{n}\sum_{i=1}^nx_i\to u_A(X)=S(\bar{x})=\sqrt{\frac{1}{n(n-1)}\sum^{n}_{i=1}(x_i-\bar{x})^2}\]</div>
+<div class="arithmatex">\[\Delta_仪,\text{which will be provided}\to u_B(X)=\frac{\Delta_仪}{\sqrt{3}}\]</div>
+<div class="arithmatex">\[u=\sqrt{u_A^2+u_B^2}\]</div>
 <p>教材中<span class="arithmatex">\(\Delta_仪=ku_B\)</span>，常见分布的 <span class="arithmatex">\(k\)</span> 值如下：</p>
 <table>
 <thead>
@@ -4163,11 +4173,13 @@ $<span class="arithmatex">\(u=\sqrt{u_A^2+u_B^2}\)</span>$</p>
 </tr>
 </tbody>
 </table>
+<hr />
 <h5 id="_12">间接测量<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h5>
-<p>间接测量量<span class="arithmatex">\(T=f(X_1,X_2,\dots,X_k,\dots,X_N)\)</span>的合成标准不确定度<span class="arithmatex">\(u_c(Y)\)</span></p>
-<div class="arithmatex">\[若f为和差形式,u_c(Y)=\sqrt{\sum_{k=1}^{N}(\frac{\partial f}{\partial X_k}u(X_k))^2}$$
-$$若f为积商形式,Y\to u_c(Y)=\bar{Y}\sqrt{\sum_{k=1}^{N}(\frac{\partial \ln f}{\partial X_k}u(X_k))^2}\]</div>
+<p>间接测量量 <span class="arithmatex">\(T=f(X_1,X_2,\dots,X_k,\dots,X_N)\)</span> 的合成标准不确定度 <span class="arithmatex">\(u_c(Y)\)</span></p>
+<div class="arithmatex">\[若f为和差形式,u_c(Y)=\sqrt{\sum_{k=1}^{N}(\frac{\partial f}{\partial X_k}u(X_k))^2}\]</div>
+<div class="arithmatex">\[若f为积商形式,Y\to u_c(Y)=\bar{Y}\sqrt{\sum_{k=1}^{N}(\frac{\partial \ln f}{\partial X_k}u(X_k))^2}\]</div>
 <p>其中由偏导所得的 <span class="arithmatex">\(X_k\)</span> 均取 <span class="arithmatex">\(\bar{X_k}\)</span></p>
+<hr />
 <h3 id="_13">有效数字<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
 <h4 id="_14">读数分类<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h4>
 <ul>
@@ -4177,48 +4189,63 @@ $$若f为积商形式,Y\to u_c(Y)=\bar{Y}\sqrt{\sum_{k=1}^{N}(\frac{\partial \ln
 <li>有效数字的有效位数：其总位数（从左数第一个不为0的数字开始）</li>
 </ul>
 <p><em>游标卡尺不估读</em></p>
+<hr />
 <h4 id="_15">为什么要重视位数<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h4>
 <p><mark style="background: #FF5582A6;">有效数字的位数多少直接反映测量的准确度。</mark>有效位数越多，表明测量的准确度越高。数据的有效数字后面不可任意增减0。</p>
 <p>不同分度值的测量仪器影响有效数字位数，多一位有效数字，相对误差几乎小一个数量级。</p>
+<hr />
 <h4 id="_16">有效位数的取位<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h4>
 <p>仪器确定后，所有的原始数据的有效数字位数都是确定的。</p>
 <p>有效数字分<strong>可靠位</strong>（直接获得）与<strong>存疑位</strong>（估读），若无估读，则无存疑位。</p>
-<p><mark style="background: #FF5582A6;">有效数字位数与科学计数法和单位换算无关</mark>
-- 科学计数法不改变有效数字位数，一般小数点前只取一位，幂指数不是有效数字
-- 十进制单位变换：不影响有效数字位数
-    <script type="math/tex; mode=display">√:1200g\to1.200kg </script>
-- 非十进制单位变换：保持误差所在位在单位变换后还是有效数字末位
-    如：<span class="arithmatex">\(\bar{\theta}=93.5^\circ\)</span>
-    误差为<span class="arithmatex">\(0.1^\circ\)</span>，先进行误差换算，<span class="arithmatex">\(0.1^\circ \to \frac{\pi}{180}\times 0.1 rad = 0.002 rad\)</span>
-    换算：<span class="arithmatex">\(\bar{\theta}=93.5^\circ \to \bar{\theta}=\frac{\pi}{180}\times 93.5 rad=1.632rad\)</span></p>
+<ul>
+<li><mark style="background: #FF5582A6;">有效数字位数与科学计数法和单位换算无关</mark></li>
+<li>科学计数法不改变有效数字位数，一般小数点前只取一位，幂指数不是有效数字</li>
+<li>十进制单位变换：不影响有效数字位数</li>
+</ul>
+<div class="arithmatex">\[√:1200g\to1.200kg \]</div>
+<ul>
+<li>非十进制单位变换：保持误差所在位在单位变换后还是有效数字末位<ul>
+<li>如：<span class="arithmatex">\(\bar{\theta}=93.5^\circ\)</span></li>
+<li>误差为<span class="arithmatex">\(0.1^\circ\)</span>，先进行误差换算，<span class="arithmatex">\(0.1^\circ \to \frac{\pi}{180}\times 0.1 rad = 0.002 rad\)</span></li>
+<li>换算：<span class="arithmatex">\(\bar{\theta}=93.5^\circ \to \bar{\theta}=\frac{\pi}{180}\times 93.5 rad=1.632rad\)</span></li>
+</ul>
+</li>
+</ul>
+<hr />
 <h4 id="_17">有效数字的运算法则<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h4>
 <ul>
 <li>总则：存疑数法则——可靠数加减乘除存疑数仍是存疑数</li>
-<li>加减：结果与参与运算诸数可疑数字<strong>最大的位置</strong>一致
-    $<span class="arithmatex">\(12.4+0.571=12.971=13.0\)</span>$</li>
-<li>乘除：结果有效数字位数与参与运算诸数<strong>有效数字位数最少者</strong>相同。（<span class="arithmatex">\(\pi,g\text{ are not included}\)</span>）
-    $<span class="arithmatex">\(3600\times 8.0=2.9\times 10^4\)</span>$</li>
-<li>函数运算（page 19、21）
-    三角函数的计算结果有效数字与角度的有效数字位数相同
-    $<span class="arithmatex">\(\sin(30.2)=0.503019=0.503\)</span>$
-    对数运算其尾数与真数的有效数字位数相同
-    $<span class="arithmatex">\(\lg3.27=0.514\)</span>$
-    其他函数：自变量存疑位上下变动一个单位，观察函数结果在哪一位上变动，结果的可疑位就取在该位
-    $<span class="arithmatex">\(\text{For }3.24^{\frac{1}{20}}=1.0605405,3.25^{\frac{1}{20}}=1.0607039,3.26^{\frac{1}{20}}=1.0608669\)</span>$
-    $<span class="arithmatex">\(3.25^{\frac{1}{20}}=1.0607\)</span>$
-    通过函数计算确定（误差传递公式）</li>
+<li>加减：结果与参与运算诸数可疑数字<strong>最大的位置</strong>一致</li>
 </ul>
+<div class="arithmatex">\[12.4+0.571=12.971=13.0\]</div>
+<ul>
+<li>乘除：结果有效数字位数与参与运算诸数<strong>有效数字位数最少者</strong>相同。（<span class="arithmatex">\(\pi,g\text{ are not included}\)</span>）</li>
+</ul>
+<div class="arithmatex">\[3600\times 8.0=2.9\times 10^4\]</div>
+<ul>
+<li>函数运算（page 19、21）
+    三角函数的计算结果有效数字与角度的有效数字位数相同</li>
+</ul>
+<div class="arithmatex">\[\sin(30.2)=0.503019=0.503\]</div>
+<p>对数运算其尾数与真数的有效数字位数相同</p>
+<div class="arithmatex">\[\lg3.27=0.514\]</div>
+<p>其他函数：自变量存疑位上下变动一个单位，观察函数结果在哪一位上变动，结果的可疑位就取在该位</p>
+<div class="arithmatex">\[\text{For }3.24^{\frac{1}{20}}=1.0605405,3.25^{\frac{1}{20}}=1.0607039,3.26^{\frac{1}{20}}=1.0608669\]</div>
+<div class="arithmatex">\[3.25^{\frac{1}{20}}=1.0607\]</div>
+<p>通过函数计算确定（误差传递公式）</p>
+<hr />
 <h4 id="_18">有效数字的保留位数和修约法则<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h4>
-<p>一般修约规则：四舍六入五凑偶，不可连续修约
-$<span class="arithmatex">\(12.4999\to12;12.5001\to13;12.5000\to12;13.5000\to14\)</span>$
-$<span class="arithmatex">\(2.2499\to2.2;2.1502\to2.2;2.1500\to2.2;2.2500\to2.2\)</span>$</p>
+<p>一般修约规则：四舍六入五凑偶，不可连续修约</p>
+<div class="arithmatex">\[12.4999\to12;12.5001\to13;12.5000\to12;13.5000\to14\]</div>
+<div class="arithmatex">\[2.2499\to2.2;2.1502\to2.2;2.1500\to2.2;2.2500\to2.2\]</div>
 <p><strong>测量不确定度的特殊规定</strong>（规则只适用于不确定度）
 - 不确定度保留位数
-    当不确定度第1位有效数字是1或2时，可取两位，3以上只可有1位有效数字
+    - 当不确定度第1位有效数字是1或2时，可取两位，3以上只可有1位有效数字
 - 不确定度修约法则
-    欲保留的最低位后的这1位数不为0则进位，为0则舍去
-    $<span class="arithmatex">\(u(s)=0.031\dots cm^2\to 0.04\dots cm^2\)</span>$
-    $<span class="arithmatex">\(u(s)=0.0211\dots cm^2\to0.22\dots cm^2\)</span>$</p>
+    - 欲保留的最低位后的这1位数不为0则进位，为0则舍去</p>
+<div class="arithmatex">\[u(s)=0.031\dots cm^2\to 0.04\dots cm^2\]</div>
+<div class="arithmatex">\[u(s)=0.0211\dots cm^2\to0.22\dots cm^2\]</div>
+<hr />
 <h3 id="_19">测量结果的表达<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
 <ol>
 <li>直接测量量 <span class="arithmatex">\(x\)</span>：均值为 <span class="arithmatex">\(\bar{x}\)</span>，合成不确定度为 <span class="arithmatex">\(u(x)\)</span>，最终结果为 <span class="arithmatex">\(x = (\bar{x} \pm u(x))\)</span> 单位。</li>
@@ -4231,21 +4258,23 @@ $<span class="arithmatex">\(2.2499\to2.2;2.1502\to2.2;2.1500\to2.2;2.2500\to2.2\
 <ol>
 <li>最终结果形式：$<span class="arithmatex">\(y = (\bar{y} \pm u) \text{ 单位}\)</span>$</li>
 </ol>
-<p>如：
-$<span class="arithmatex">\(\bar{s} = 2.3531\ \mathrm{cm}^2, \quad u(s) = 0.0311\ \mathrm{cm}^2 \quad \Rightarrow \quad S = (2.35 \pm 0.04)\ \mathrm{cm}^2\)</span>$
-$<span class="arithmatex">\(\bar{s} = 2.3531\ \mathrm{cm}^2, \quad u(s) = 0.0211\ \mathrm{cm}^2 \quad \Rightarrow \quad S = (2.353 \pm 0.022)\ \mathrm{cm}^2\)</span>$</p>
+<p>如：</p>
+<div class="arithmatex">\[\bar{s} = 2.3531\ \mathrm{cm}^2, \quad u(s) = 0.0311\ \mathrm{cm}^2 \quad \Rightarrow \quad S = (2.35 \pm 0.04)\ \mathrm{cm}^2\]</div>
+<div class="arithmatex">\[\bar{s} = 2.3531\ \mathrm{cm}^2, \quad u(s) = 0.0211\ \mathrm{cm}^2 \quad \Rightarrow \quad S = (2.353 \pm 0.022)\ \mathrm{cm}^2\]</div>
 <p>最终结果有效数字的位数由合成不确定度 <span class="arithmatex">\(u\)</span> 来确定。</p>
 <ul>
 <li>先保留不确定度的位数：保留1或2位有效数字，若非零则向上进位。</li>
 <li>再保留均值的位数：平均值 <span class="arithmatex">\(\bar{y}\)</span> 的最后一位与不确定度 <span class="arithmatex">\(u\)</span> 的最后一位位置对齐。</li>
 <li>结果较大或太小时，注意使用科学计数法和单位换算。</li>
 </ul>
+<hr />
 <h3 id="_20">数据处理<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h3>
 <h4 id="1">1. 列表法<a class="headerlink" href="#1" title="Permanent link">&para;</a></h4>
 <ul>
 <li>将实验数据以表格形式有序排列，便于记录、检查和后续处理。</li>
 <li>基本要求：表头注明物理量名称、符号和单位；数据排列整齐，有效数字正确；必要时注明测量条件。</li>
 </ul>
+<hr />
 <h4 id="2">2. 作图法<a class="headerlink" href="#2" title="Permanent link">&para;</a></h4>
 <ul>
 <li>用图形直观表示物理量之间的关系。</li>
@@ -4257,6 +4286,7 @@ $<span class="arithmatex">\(\bar{s} = 2.3531\ \mathrm{cm}^2, \quad u(s) = 0.0211
 <li>根据数据点分布，用直尺或曲线板拟合图线（直线或光滑曲线）。</li>
 <li>在图下方或空白处标明图名、作者和日期。</li>
 </ul>
+<hr />
 <h4 id="3">3. 最小二乘法（线性回归）<a class="headerlink" href="#3" title="Permanent link">&para;</a></h4>
 <ul>
 <li>用于从一组带有误差的数据中寻找两个变量间的最佳线性关系 <span class="arithmatex">\(y = a + bx\)</span>。</li>
@@ -4270,14 +4300,16 @@ $<span class="arithmatex">\(\bar{s} = 2.3531\ \mathrm{cm}^2, \quad u(s) = 0.0211
   $<span class="arithmatex">\(r = \frac{\overline{xy} - \overline{x} \cdot \overline{y}}{\sqrt{(\overline{x^2} - \overline{x}^2)(\overline{y^2} - \overline{y}^2)}}\)</span>$
   <span class="arithmatex">\(|r|\)</span> 越接近1，线性越好。</li>
 </ul>
+<hr />
 <h4 id="4">4. 逐差法<a class="headerlink" href="#4" title="Permanent link">&para;</a></h4>
 <ul>
 <li>适用于处理自变量等间距变化的线性关系数据，可充分利用数据减少相对误差。</li>
 <li><strong>使用条件</strong>：函数形式为线性 <span class="arithmatex">\(y = a + bx\)</span>，且自变量 <span class="arithmatex">\(x\)</span> 是<strong>等间距</strong>变化。</li>
-<li><strong>处理方法</strong>：将测量数据按顺序分成两组，将后组的第一个数据与前组的第一个数据相减，依次类推，然后求这些差值的平均值来计算斜率 <span class="arithmatex">\(b\)</span>。
-  $<span class="arithmatex">\(b = \frac{\Delta y}{\Delta x} = \frac{\frac{1}{k} \sum_{i=1}^{k} (y_{i+k} - y_i)}{k \cdot \Delta x}\)</span>$
-  其中 <span class="arithmatex">\(n\)</span> 为总测量次数（通常为偶数），<span class="arithmatex">\(k = n/2\)</span>，<span class="arithmatex">\(\Delta x\)</span> 为自变量每次的增量。</li>
+<li><strong>处理方法</strong>：将测量数据按顺序分成两组，将后组的第一个数据与前组的第一个数据相减，依次类推，然后求这些差值的平均值来计算斜率 <span class="arithmatex">\(b\)</span>。</li>
 </ul>
+<div class="arithmatex">\[b = \frac{\Delta y}{\Delta x} = \frac{\frac{1}{k} \sum_{i=1}^{k} (y_{i+k} - y_i)}{k \cdot \Delta x}\]</div>
+<p>其中 <span class="arithmatex">\(n\)</span> 为总测量次数（通常为偶数），<span class="arithmatex">\(k = n/2\)</span>，<span class="arithmatex">\(\Delta x\)</span> 为自变量每次的增量。</p>
+<hr />
 <h4 id="5">5. 测量结果的不确定度与有效数字<a class="headerlink" href="#5" title="Permanent link">&para;</a></h4>
 <ul>
 <li><strong>直接测量量 <span class="arithmatex">\(x\)</span> 的最终结果</strong>：<span class="arithmatex">\(x = (\bar{x} \pm u(x))\)</span> 单位。
@@ -4293,10 +4325,13 @@ $<span class="arithmatex">\(\bar{s} = 2.3531\ \mathrm{cm}^2, \quad u(s) = 0.0211
 <li>不确定度 <span class="arithmatex">\(u\)</span> 先保留 <strong>1 或 2 位</strong>有效数字，当首位数字 ≥3 时可留1位，通常保留1位，修约时“只进不舍”。</li>
 <li>平均值 <span class="arithmatex">\(\bar{y}\)</span> 的最后一位与不确定度 <span class="arithmatex">\(u\)</span> 的最后一位<strong>对齐</strong>。</li>
 <li>结果过大或过小时，使用科学计数法并注意单位换算。</li>
-<li>示例：
-    <span class="arithmatex">\(\bar{s} = 2.3531\ \mathrm{cm}^2,\ u(s) = 0.0311\ \mathrm{cm}^2 \ \Rightarrow\ S = (2.35 \pm 0.04)\ \mathrm{cm}^2\)</span>
-    <span class="arithmatex">\(\bar{s} = 2.3531\ \mathrm{cm}^2,\ u(s) = 0.0211\ \mathrm{cm}^2 \ \Rightarrow\ S = (2.353 \pm 0.022)\ \mathrm{cm}^2\)</span></li>
+<li>示例：<ul>
+<li><span class="arithmatex">\(\bar{s} = 2.3531\ \mathrm{cm}^2,\ u(s) = 0.0311\ \mathrm{cm}^2 \ \Rightarrow\ S = (2.35 \pm 0.04)\ \mathrm{cm}^2\)</span></li>
+<li><span class="arithmatex">\(\bar{s} = 2.3531\ \mathrm{cm}^2,\ u(s) = 0.0211\ \mathrm{cm}^2 \ \Rightarrow\ S = (2.353 \pm 0.022)\ \mathrm{cm}^2\)</span></li>
 </ul>
+</li>
+</ul>
+<hr />
 <h2 id="_21">示波器的使用<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h2>
 <h3 id="4_1">一、示波器基本组成（4部分）<a class="headerlink" href="#4_1" title="Permanent link">&para;</a></h3>
 <ol>
@@ -4305,6 +4340,7 @@ $<span class="arithmatex">\(\bar{s} = 2.3531\ \mathrm{cm}^2, \quad u(s) = 0.0211
 <li><strong>扫描与触发同步系统</strong> - 控制波形稳定</li>
 <li><strong>电源</strong> - 供电系统</li>
 </ol>
+<hr />
 <h3 id="_22">二、主要功能按钮详解<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h3>
 <h4 id="_23">通道相关<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h4>
 <ul>
@@ -4341,6 +4377,7 @@ $<span class="arithmatex">\(\bar{s} = 2.3531\ \mathrm{cm}^2, \quad u(s) = 0.0211
 <li><strong>POSITION（垂直位移）</strong>：此旋钮只改变波形在屏幕上的<strong>上下位置</strong>，并不改变其幅度（量程）。</li>
 <li><strong>FOCUS/INTEN（聚焦/亮度）</strong>：控制显示清晰度和亮度，与量程无关。</li>
 </ul>
+<hr />
 <h3 id="_28">三、波形显示原理<a class="headerlink" href="#_28" title="Permanent link">&para;</a></h3>
 <h4 id="_29">扫描同步条件<a class="headerlink" href="#_29" title="Permanent link">&para;</a></h4>
 <ul>
@@ -4356,75 +4393,107 @@ $<span class="arithmatex">\(\bar{s} = 2.3531\ \mathrm{cm}^2, \quad u(s) = 0.0211
 <li>触发源选择错误</li>
 <li>触发耦合模式不合适</li>
 </ol>
+<hr />
 <h3 id="_31">四、电压测量方法<a class="headerlink" href="#_31" title="Permanent link">&para;</a></h3>
 <h4 id="_32">直接测量法<a class="headerlink" href="#_32" title="Permanent link">&para;</a></h4>
-<p>公式：<span class="arithmatex">\(U_{p-p} = D × h\)</span>
-- <span class="arithmatex">\(U_{p-p}\)</span>：峰峰值电压
-- <span class="arithmatex">\(D\)</span>：偏转灵敏度（VOLTS/DIV设置值）
-- <span class="arithmatex">\(h\)</span>：波形垂直方向格数</p>
+<ul>
+<li>公式：<span class="arithmatex">\(U_{p-p} = D × h\)</span><ul>
+<li><span class="arithmatex">\(U_{p-p}\)</span>：峰峰值电压</li>
+<li><span class="arithmatex">\(D\)</span>：偏转灵敏度（VOLTS/DIV设置值）</li>
+<li><span class="arithmatex">\(h\)</span>：波形垂直方向格数</li>
+</ul>
+</li>
+</ul>
 <h4 id="_33">二极管导通电压测量<a class="headerlink" href="#_33" title="Permanent link">&para;</a></h4>
-<p>公式：<span class="arithmatex">\(U_{导通} = (U_{1p-p}/2) - U_{2p}\)</span>
-- <span class="arithmatex">\(U_{1p-p}\)</span>：输入信号峰峰值
-- <span class="arithmatex">\(U_{2p}\)</span>：输出信号峰值</p>
+<ul>
+<li>公式：<span class="arithmatex">\(U_{导通} = (U_{1p-p}/2) - U_{2p}\)</span><ul>
+<li><span class="arithmatex">\(U_{1p-p}\)</span>：输入信号峰峰值</li>
+<li><span class="arithmatex">\(U_{2p}\)</span>：输出信号峰值</li>
+</ul>
+</li>
+</ul>
+<hr />
 <h3 id="_34">五、李萨如图形<a class="headerlink" href="#_34" title="Permanent link">&para;</a></h3>
 <h4 id="_35">频率关系公式<a class="headerlink" href="#_35" title="Permanent link">&para;</a></h4>
-<p><span class="arithmatex">\(f_x × N_x = f_y × N_y\)</span>
-- <span class="arithmatex">\(f_x, f_y\)</span>：X、Y方向信号频率
-- <span class="arithmatex">\(N_x, N_y\)</span>：与图形相交的最多交点个数</p>
+<ul>
+<li><span class="arithmatex">\(f_x × N_x = f_y × N_y\)</span><ul>
+<li><span class="arithmatex">\(f_x, f_y\)</span>：X、Y方向信号频率</li>
+<li><span class="arithmatex">\(N_x, N_y\)</span>：与图形相交的最多交点个数</li>
+</ul>
+</li>
+</ul>
 <h4 id="_36">图形稳定性<a class="headerlink" href="#_36" title="Permanent link">&para;</a></h4>
 <ul>
 <li>频率比越接近整数比：图形越稳定</li>
 <li>频率比偏离整数比：图形翻转越快</li>
 <li>显示为运动椭圆：波形不稳定</li>
 </ul>
+<hr />
 <h3 id="1_1">例题1：波形稳定性分析<a class="headerlink" href="#1_1" title="Permanent link">&para;</a></h3>
 <p><strong>题目：</strong> 在示波器CH1通道输入正弦信号时，观察到波形不断向右移动且不稳定，分析原因并提出调节方法。</p>
-<p><strong>参考答案：</strong>
-1. <strong>原因分析：</strong>
-   - 扫描信号周期不是被测信号周期的整数倍
-   - 触发电平设置不当，未在信号的有效触发点
-   - 可能触发源选择错误或耦合模式不合适</p>
+<p><strong>参考答案：</strong></p>
 <ol>
-<li><strong>调节方法：</strong></li>
+<li><strong>原因分析：</strong><ul>
+<li>扫描信号周期不是被测信号周期的整数倍</li>
+<li>触发电平设置不当，未在信号的有效触发点</li>
+<li>可能触发源选择错误或耦合模式不合适</li>
+</ul>
+</li>
+<li><strong>调节方法：</strong><ul>
 <li>调节TIME/DIV旋钮，使扫描周期为信号周期的整数倍</li>
 <li>调整TRIG LEVEL触发电平，设置在信号的中点或过零点</li>
 <li>检查触发源是否正确选择为CH1</li>
 <li>尝试不同的触发耦合模式</li>
+</ul>
+</li>
 </ol>
+<hr />
 <h3 id="2_1">例题2：李萨如图形频率计算<a class="headerlink" href="#2_1" title="Permanent link">&para;</a></h3>
 <p><strong>题目：</strong> 将未知信号接CH1(X轴)，信号发生器(600.0Hz)接CH2(Y轴)。观察到李萨如图形与水平线最多4个交点，与垂直线最多6个交点。求未知信号频率。</p>
-<p><strong>解答：</strong>
-已知：<span class="arithmatex">\(f_y = 600.0Hz, N_y = 4, N_x = 6\)</span>
-根据公式：<span class="arithmatex">\(f_x × N_x = f_y × N_y\)</span>
-<span class="arithmatex">\(f_x = (f_y × N_y) / N_x = (600.0 × 4) / 6 = 400.0Hz\)</span></p>
+<p><strong>解答：</strong></p>
+<p>已知：<span class="arithmatex">\(f_y = 600.0Hz, N_y = 4, N_x = 6\)</span></p>
+<p>根据公式：<span class="arithmatex">\(f_x × N_x = f_y × N_y\)</span></p>
+<p><span class="arithmatex">\(f_x = (f_y × N_y) / N_x = (600.0 × 4) / 6 = 400.0Hz\)</span></p>
+<hr />
 <h3 id="3_1">例题3：二极管导通电压计算<a class="headerlink" href="#3_1" title="Permanent link">&para;</a></h3>
 <p><strong>题目：</strong> 用光标法测得CH1峰峰值电压10.000V，CH2峰值电压4.240V。计算二极管导通电压。</p>
-<p><strong>解答：</strong>
-$<span class="arithmatex">\(U_{导通} = (U_{1p-p}/2) - U_{2p} = (10.000/2) - 4.240 = 5.000 - 4.240 = 0.760V\)</span>$</p>
+<p><strong>解答：</strong></p>
+<div class="arithmatex">\[U_{导通} = (U_{1p-p}/2) - U_{2p} = (10.000/2) - 4.240 = 5.000 - 4.240 = 0.760V\]</div>
+<hr />
 <h3 id="4_2">例题4：异常波形分析<a class="headerlink" href="#4_2" title="Permanent link">&para;</a></h3>
 <p><strong>题目：</strong> 当扫描周期设为1ms时波形向右移动，设为5s时显示为竖直直线并向左移动。解释这种现象。</p>
-<p><strong>参考答案：</strong>
-1. <strong>扫描周期1ms时：</strong>
-   - 信号周期大于扫描周期(Ty &gt; T扫描)
-   - 根据扫描原理，此时波形会向右移动</p>
+<p><strong>参考答案：</strong></p>
 <ol>
-<li><strong>扫描周期5s时：</strong></li>
+<li><strong>扫描周期1ms时：</strong><ul>
+<li>信号周期大于扫描周期(Ty &gt; T扫描)</li>
+<li>根据扫描原理，此时波形会向右移动</li>
+</ul>
+</li>
+<li><strong>扫描周期5s时：</strong><ul>
 <li>扫描频率远低于信号频率，无法完整显示波形周期</li>
 <li>显示为竖直直线是因为电子束在水平方向移动极慢</li>
 <li>向左移动是因为信号周期小于扫描周期(Ty &lt; T扫描)</li>
 <li>这种现象表明扫描速率设置过慢，无法正确显示高频信号</li>
+</ul>
+</li>
 </ol>
+<hr />
 <h3 id="5_1">例题5：综合应用题<a class="headerlink" href="#5_1" title="Permanent link">&para;</a></h3>
-<p><strong>题目：</strong> 用示波器观察某电路输出信号，已知VOLTS/DIV设为0.5V/div，TIME/DIV设为0.2ms/div。测得：
-- 波形垂直方向占4.2格
-- 一个完整周期水平方向占5.0格
-- 李萨如图形显示为稳定的圆形</p>
+<p><strong>题目：</strong> 用示波器观察某电路输出信号，已知VOLTS/DIV设为0.5V/div，TIME/DIV设为0.2ms/div。测得：</p>
+<ul>
+<li>波形垂直方向占4.2格</li>
+<li>一个完整周期水平方向占5.0格</li>
+<li>李萨如图形显示为稳定的圆形</li>
+</ul>
 <p>求：(1)信号电压峰值 (2)信号频率 (3)X-Y模式下两信号相位关系</p>
-<p><strong>解答：</strong>
-1. <strong>电压峰值：</strong> <span class="arithmatex">\(U = 0.5V/div × 4.2div = 2.1V\)</span>
-2. <strong>信号周期：</strong> <span class="arithmatex">\(T = 0.2ms/div × 5.0div = 1.0ms\)</span>
-   <strong>频率：</strong> <span class="arithmatex">\(f = 1/T = 1/0.001 = 1000Hz = 1kHz\)</span>
-3. <strong>相位关系：</strong> 李萨如图形为圆形，说明两信号频率相同，相位差为90°</p>
+<p><strong>解答：</strong></p>
+<ol>
+<li><strong>电压峰值：</strong> <span class="arithmatex">\(U = 0.5V/div × 4.2div = 2.1V\)</span></li>
+<li><strong>信号周期：</strong> <span class="arithmatex">\(T = 0.2ms/div × 5.0div = 1.0ms\)</span>
+   <strong>频率：</strong> <span class="arithmatex">\(f = 1/T = 1/0.001 = 1000Hz = 1kHz\)</span></li>
+<li><strong>相位关系：</strong> 李萨如图形为圆形，说明两信号频率相同，相位差为90°</li>
+</ol>
+<hr />
 <h3 id="_37">示波器历年题<a class="headerlink" href="#_37" title="Permanent link">&para;</a></h3>
 <div class="admonition question">
 <p class="admonition-title">某信号频率1000Hz，屏幕显示5个波形，求扫描电压周期</p>
@@ -4439,20 +4508,25 @@ $<span class="arithmatex">\(U_{导通} = (U_{1p-p}/2) - U_{2p} = (10.000/2) - 4.
 <li>时间间隔</li>
 </ol>
 </div>
+<hr />
 <h2 id="_38">分光计的调整与使用<a class="headerlink" href="#_38" title="Permanent link">&para;</a></h2>
 <h3 id="_39">一、分光计的基本结构<a class="headerlink" href="#_39" title="Permanent link">&para;</a></h3>
-<p>分光计主要由四部分组成：
-1. <strong>自准望远镜</strong> - 观察和确定光线方向
-2. <strong>平行光管</strong> - 产生平行光束
-3. <strong>载物平台</strong> - 放置光学元件
-4. <strong>读数装置</strong> - 测量角度（双游标消除偏心差）</p>
+<p>分光计主要由四部分组成：</p>
+<ol>
+<li><strong>自准望远镜</strong> - 观察和确定光线方向</li>
+<li><strong>平行光管</strong> - 产生平行光束</li>
+<li><strong>载物平台</strong> - 放置光学元件</li>
+<li><strong>读数装置</strong> - 测量角度（双游标消除偏心差）</li>
+</ol>
 <p>可用于测量波长、光栅衍射、棱镜角、棱镜材料的折射率和色散率等</p>
+<hr />
 <h3 id="_40">二、分光计的调整目标<a class="headerlink" href="#_40" title="Permanent link">&para;</a></h3>
 <ul>
 <li>入射光线是平行光（平行光管发射平行光）</li>
 <li>望远镜能接收平行光（调焦到无穷远）</li>
 <li>平行光管和望远镜的光轴与分光计中心轴垂直</li>
 </ul>
+<hr />
 <h3 id="_41">三、调整步骤详解（平行、调焦，先粗调，再细调）<a class="headerlink" href="#_41" title="Permanent link">&para;</a></h3>
 <h4 id="1_2">1. 粗调<a class="headerlink" href="#1_2" title="Permanent link">&para;</a></h4>
 <ul>
@@ -4490,6 +4564,7 @@ $<span class="arithmatex">\(U_{导通} = (U_{1p-p}/2) - U_{2p} = (10.000/2) - 4.
 <li>调节平行光管发出平行光且光轴垂直于中心转轴</li>
 </ol>
 </div>
+<hr />
 <h3 id="_42">四、测量方法<a class="headerlink" href="#_42" title="Permanent link">&para;</a></h3>
 <h4 id="_43">反射法测三棱镜顶角<a class="headerlink" href="#_43" title="Permanent link">&para;</a></h4>
 <ul>
@@ -4503,75 +4578,106 @@ $<span class="arithmatex">\(U_{导通} = (U_{1p-p}/2) - U_{2p} = (10.000/2) - 4.
 <li>取平均值消除偏心差：<span class="arithmatex">\(\Phi=\frac{1}{2}(\Phi_{\text{left}}+\Phi_{\text{right}})\)</span></li>
 <li>角游标读数 = 刻度盘读数 + 游标读数</li>
 </ul>
+<hr />
 <h3 id="_45">自准直法原理<a class="headerlink" href="#_45" title="Permanent link">&para;</a></h3>
 <p>亮十字处于物镜焦平面时，发出的光经物镜变为平行光，反射回来仍在焦平面成像。</p>
+<hr />
 <h3 id="_46">偏心差消除<a class="headerlink" href="#_46" title="Permanent link">&para;</a></h3>
 <p>必须同时读取左右两个游标窗的读数，取平均值。</p>
+<hr />
 <h3 id="_47">二分之一调节法技巧<a class="headerlink" href="#_47" title="Permanent link">&para;</a></h3>
 <ul>
 <li>反射镜两个反射面的像位置不一致时</li>
 <li>调节量取偏差的一半</li>
 <li>逐步逼近直至重合</li>
 </ul>
+<hr />
 <h3 id="1_3">例题1：分光计调整分析题<a class="headerlink" href="#1_3" title="Permanent link">&para;</a></h3>
 <p><strong>题目：</strong> 在调整分光计过程中，当转动载物平台180°时，发现反射镜的一个反射面能看到亮十字像，但另一个反射面完全看不到亮十字像。请分析可能的原因及解决方法。</p>
-<p><strong>答案：</strong>
-可能原因：
-1. 粗调不够准确，望远镜光轴严重偏离水平
-2. 反射镜放置位置不当
-3. 载物平台倾斜度过大</p>
-<p>解决方法：
-1. 重新进行粗调，确保望远镜和载物平台基本水平
-2. 检查反射镜是否垂直放置于载物平台
-3. 轻微调节望远镜倾斜螺钉，寻找亮十字像
-4. 如果仍找不到，可调节载物平台下的螺钉，使反射像进入视场</p>
+<p><strong>答案：</strong></p>
+<p>可能原因：</p>
+<ol>
+<li>粗调不够准确，望远镜光轴严重偏离水平</li>
+<li>反射镜放置位置不当</li>
+<li>载物平台倾斜度过大</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>重新进行粗调，确保望远镜和载物平台基本水平</li>
+<li>检查反射镜是否垂直放置于载物平台</li>
+<li>轻微调节望远镜倾斜螺钉，寻找亮十字像</li>
+<li>如果仍找不到，可调节载物平台下的螺钉，使反射像进入视场</li>
+</ol>
+<hr />
 <h3 id="2_3">例题2：三棱镜顶角测量计算题<a class="headerlink" href="#2_3" title="Permanent link">&para;</a></h3>
-<p><strong>题目：</strong> 用反射法测量三棱镜顶角，测得数据如下：
-- 反射面1：左游标窗 125°15′，右游标窗 305°12′
-- 反射面2：左游标窗 185°20′，右游标窗 5°18′
-- 仪器允差为 ±1′</p>
+<p><strong>题目：</strong> 用反射法测量三棱镜顶角，测得数据如下：</p>
+<ul>
+<li>反射面1：左游标窗 125°15′，右游标窗 305°12′</li>
+<li>反射面2：左游标窗 185°20′，右游标窗 5°18′</li>
+<li>仪器允差为 ±1′</li>
+</ul>
 <p>求三棱镜顶角的大小及其不确定度。</p>
-<p><strong>答案：</strong>
-<strong>计算过程：</strong>
-1. 反射面1平均角度：(125°15′ + 305°12′)/2 = 215°13.5′
-2. 反射面2平均角度：(185°20′ + 5°18′)/2 = 95°19′
-3. 两反射面夹角：α = |215°13.5′ - 95°19′| = 119°54.5′
-4. 三棱镜顶角：A = α/2 = 59°57.25′</p>
-<p><strong>不确定度计算：</strong>
-- 角度测量不确定度：u₁ = 1′/√3 ≈ 0.58′
-- 两次读数合成不确定度：u = √(0.58² + 0.58²) ≈ 0.82′
-- 顶角不确定度：u_A = u/2 ≈ 0.41′</p>
+<p><strong>答案：</strong></p>
+<p><strong>计算过程：</strong></p>
+<ol>
+<li>反射面1平均角度：(125°15′ + 305°12′)/2 = 215°13.5′</li>
+<li>反射面2平均角度：(185°20′ + 5°18′)/2 = 95°19′</li>
+<li>两反射面夹角：α = |215°13.5′ - 95°19′| = 119°54.5′</li>
+<li>三棱镜顶角：A = α/2 = 59°57.25′</li>
+</ol>
+<p><strong>不确定度计算：</strong></p>
+<ul>
+<li>角度测量不确定度：u₁ = 1′/√3 ≈ 0.58′</li>
+<li>两次读数合成不确定度：u = √(0.58² + 0.58²) ≈ 0.82′</li>
+<li>顶角不确定度：u_A = u/2 ≈ 0.41′</li>
+</ul>
 <p><strong>最终结果：</strong> A = 59°57.3′ ± 0.4′</p>
-<h4 id="3_3">例题3：综合应用题<a class="headerlink" href="#3_3" title="Permanent link">&para;</a></h4>
-<p><strong>题目：</strong> 某学生在分光计实验中遇到以下问题：
-1. 狭缝像始终模糊不清
-2. 测量三棱镜最小偏向角时，谱线宽度较大
-3. 读数时两个游标窗差值超过2′</p>
+<hr />
+<h3 id="3_3">例题3：综合应用题<a class="headerlink" href="#3_3" title="Permanent link">&para;</a></h3>
+<p><strong>题目：</strong> 某学生在分光计实验中遇到以下问题：</p>
+<ol>
+<li>狭缝像始终模糊不清</li>
+<li>测量三棱镜最小偏向角时，谱线宽度较大</li>
+<li>读数时两个游标窗差值超过2′</li>
+</ol>
 <p>请分析每个问题的原因并提出改进措施。</p>
 <p><strong>答案：</strong>
-<strong>问题1分析：</strong>
-- 原因：平行光管未调好焦，狭缝不在物镜焦平面上
-- 改进：重新调节平行光管焦距，直至狭缝像清晰</p>
-<p><strong>问题2分析：</strong>
-- 原因：狭缝过宽或三棱镜位置不当
-- 改进：适当减小狭缝宽度，调整三棱镜取向使光线正入射</p>
-<p><strong>问题3分析：</strong>
-- 原因：偏心差较大或读数错误
-- 改进：检查仪器是否调好，确保每次读数时两个游标窗同时读取</p>
+<strong>问题1分析：</strong></p>
+<ul>
+<li>原因：平行光管未调好焦，狭缝不在物镜焦平面上</li>
+<li>改进：重新调节平行光管焦距，直至狭缝像清晰</li>
+</ul>
+<p><strong>问题2分析：</strong></p>
+<ul>
+<li>原因：狭缝过宽或三棱镜位置不当</li>
+<li>改进：适当减小狭缝宽度，调整三棱镜取向使光线正入射</li>
+</ul>
+<p><strong>问题3分析：</strong></p>
+<ul>
+<li>原因：偏心差较大或读数错误</li>
+<li>改进：检查仪器是否调好，确保每次读数时两个游标窗同时读取</li>
+</ul>
+<hr />
 <h3 id="4_4">例题4：误差分析题<a class="headerlink" href="#4_4" title="Permanent link">&para;</a></h3>
-<p><strong>题目：</strong> 在分光计实验中，如果以下调整未完成，分别会对测量结果产生什么影响？
-1. 望远镜未调焦到无穷远
-2. 平行光管光轴未与中心轴垂直
-3. 只读取一个游标窗的读数</p>
-<p><strong>答案：</strong>
-1. <strong>望远镜未调焦到无穷远</strong>：会导致成像模糊，角度测量不准确，引入系统误差
-2. <strong>平行光管光轴不垂直</strong>：入射光线不平行，测量角度产生偏差，影响所有角度测量结果
-3. <strong>只读一个游标窗</strong>：无法消除偏心差，显著增大测量误差，可能使误差达到仪器允差量级</p>
+<p><strong>题目：</strong> 在分光计实验中，如果以下调整未完成，分别会对测量结果产生什么影响？</p>
+<ol>
+<li>望远镜未调焦到无穷远</li>
+<li>平行光管光轴未与中心轴垂直</li>
+<li>只读取一个游标窗的读数</li>
+</ol>
+<p><strong>答案：</strong></p>
+<ol>
+<li><strong>望远镜未调焦到无穷远</strong>：会导致成像模糊，角度测量不准确，引入系统误差</li>
+<li><strong>平行光管光轴不垂直</strong>：入射光线不平行，测量角度产生偏差，影响所有角度测量结果</li>
+<li><strong>只读一个游标窗</strong>：无法消除偏心差，显著增大测量误差，可能使误差达到仪器允差量级</li>
+</ol>
+<hr />
 <h2 id="_48">感悟<a class="headerlink" href="#_48" title="Permanent link">&para;</a></h2>
 <div class="arithmatex">\[\text{😁这也是一道题哦！}\]</div>
 <ul>
 <li>（25-26秋冬 · 论述题）从本学期做过的实验中选取1～2个，结合自己的专业方向，谈谈其中的关联和应用情况。</li>
 </ul>
+<hr />
 
 
 
