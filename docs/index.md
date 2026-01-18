@@ -1,7 +1,7 @@
 ---
 title: Homepage
 created: 2025/07/26
-last_modified: 2026/01/16
+last_modified: 2026/01/18
 tags:
   - 
 author: PlutoKirin
@@ -36,3 +36,4 @@ summary: 欢迎欢迎！
 | 2026/01/01 | Reading Journal：index & 《高效能法则》              |
 | 2026/01/14 | 有机化学笔记v260114；物理化学（EN）                       |
 | 2026/01/16 | Summary of College Physics Experiments；SRN01 |
+| 2026/01/18 | 大物乙Ⅱ总结                                       |
