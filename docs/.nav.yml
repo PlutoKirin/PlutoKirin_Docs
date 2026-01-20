@@ -3,18 +3,19 @@ nav:
   - ZJU Courses:
     - ZJU_courses/index.md
     - 人工智能基础A: 
-      - ZJU_courses/Fundamentals_of_AI(A)\index.md
-      - 人工智能基础(A)-lab3-sklearn-学习指南: ZJU_courses/Fundamentals_of_AI(A)/Fundamentals_of_AI_lab03.md
+      - ZJU_courses/Fundamentals_of_AI_(A)\index.md
+      - 人工智能基础(A)-lab3-sklearn-学习指南: ZJU_courses/Fundamentals_of_AI_(A)/Fundamentals_of_AI_lab03.md
     - 工程训练：WEDM: ZJU_courses/Engineering_Training/24-25_Spring-Summer_Engineering_Training_WEDM.md
     - 奇妙分子与科学创新: ZJU_courses/Wonderful_Molecule/Wonderful_Molecule.md
     - 分析化学（乙）: ZJU_courses/Analytical_Chemistry_(B)/Analytical_Chemistry_(B).md
-    - 常微分方程: ZJU_courses/Ordinary_Differential_Equation/ODE.md
+    - 常微分方程: ZJU_courses/Ordinary_Differential_Equation/index.md
+    - 马克思主义基本原理: ZJU_courses/Basic_Principles_of_Marxism/index.md
     - 大学物理（乙）Ⅱ:
-      - ZJU_courses/College_Physics_Ⅱ(B)/index.md
-      - 电磁学: ZJU_courses/College_Physics_Ⅱ(B)/Electromagnetism_CPⅡ.md
-      - 光学: ZJU_courses/College_Physics_Ⅱ(B)/Optics_CPⅡ.md
-      - 原子物理基础: ZJU_courses/College_Physics_Ⅱ(B)/Fundamentals_of_atomic_mechanics_CPⅡ.md
-      - 量子力学基础: ZJU_courses/College_Physics_Ⅱ(B)/Fundamentals_of_quantum_mechanics_CPⅡ.md
+      - ZJU_courses/College_Physics_Ⅱ_(B)/index.md
+      - 电磁学: ZJU_courses/College_Physics_Ⅱ_(B)/Electromagnetism_CPⅡ.md
+      - 光学: ZJU_courses/College_Physics_Ⅱ_(B)/Optics_CPⅡ.md
+      - 原子物理基础: ZJU_courses/College_Physics_Ⅱ_(B)/Fundamentals_of_atomic_mechanics_CPⅡ.md
+      - 量子力学基础: ZJU_courses/College_Physics_Ⅱ_(B)/Fundamentals_of_quantum_mechanics_CPⅡ.md
     - 有机化学: 
       - ZJU_courses/Organic_Chemistry/index.md
       - Chapter01_有机化合物分子结构基础: ZJU_courses/Organic_Chemistry/Chapter01_有机化合物分子结构基础.md
