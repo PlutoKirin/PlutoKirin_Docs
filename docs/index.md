@@ -1,11 +1,11 @@
 ---
 title: Homepage
 created: 2025/07/26
-last_modified: 2026/01/20
+last_modified: 2026/01/21
 tags:
   - 
 author: PlutoKirin
-summary: 欢迎欢迎！
+summary:
 ---
 
 # Welcome to PlutoKirin's docs
@@ -39,3 +39,4 @@ summary: 欢迎欢迎！
 | 2026/01/18 | 大物乙Ⅱ总结                                       |
 | 2026/01/20 | 马原总结                                         |
 | 2026/01/20 | 概统笔记v260120；概统总结                             |
+| 2026/01/21 | 大学化学实验（A）课程总结+笔记                             |
