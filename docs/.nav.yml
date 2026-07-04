@@ -2,69 +2,69 @@ nav:
   - Homepage: index.md
   - ZJU Courses:
     - ZJU_courses/index.md
-    - 24-25春夏:
-      - 常微分方程: ZJU_courses/Ordinary_Differential_Equation/index.md
-      - 大学化学实验（A）:
-        - ZJU_courses/College_Chemistry_Experiment_(A)/index.md
-        - 大化A实验笔记: ZJU_courses/College_Chemistry_Experiment_(A)/CCE(A)_Notes.md
-        - 大化A期末整理: ZJU_courses/College_Chemistry_Experiment_(A)/Final_review_of_CCE(A).md
-      - 分析化学（乙）: ZJU_courses/Analytical_Chemistry_(B)/index.md
-      - 工程训练：WEDM: ZJU_courses/Engineering_Training/24-25_Spring-Summer_Engineering_Training_WEDM.md
-      - 奇妙分子与科学创新: ZJU_courses/Wonderful_Molecule/Wonderful_Molecule.md
-      - 人工智能基础（A）:
-        - ZJU_courses/Fundamentals_of_AI_(A)/index.md
-        - 人工智能基础(A)-lab3-sklearn-学习指南: ZJU_courses/Fundamentals_of_AI_(A)/Fundamentals_of_AI_lab03.md
-    - 25-26秋冬:
-      - 大学物理实验:
-        - ZJU_courses/College_Physics_Experiment/index.md
-        - 大物实验期末复习: ZJU_courses/College_Physics_Experiment/Final_Review_of_CPE.md
-      - 大学物理（乙）Ⅱ:
-        - ZJU_courses/College_Physics_Ⅱ_(B)/index.md
-        - 电磁学: ZJU_courses/College_Physics_Ⅱ_(B)/Electromagnetism_CPⅡ.md
-        - 光学: ZJU_courses/College_Physics_Ⅱ_(B)/Optics_CPⅡ.md
-        - 原子物理基础: ZJU_courses/College_Physics_Ⅱ_(B)/Fundamentals_of_atomic_mechanics_CPⅡ.md
-        - 量子力学基础: ZJU_courses/College_Physics_Ⅱ_(B)/Fundamentals_of_quantum_mechanics_CPⅡ.md
-      - 概率论与数理统计:
-        - ZJU_courses/Probability_Theory_and_Mathematical_Statistics/index.md
-        - Chapter01_概率论的基本概念: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter01_概率论的基本概念.md
-        - Chapter02_随机变量及其概率分布: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter02_随机变量及其概率分布.md
-        - Chapter03_多元随机变量及其分布: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter03_多元随机变量及其分布.md
-        - Chapter04_随机变量的数字特征: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter04_随机变量的数字特征.md
-        - Chapter05_大数定律和中心极限定理: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter05_大数定律和中心极限定理.md
-        - Chapter06_数理统计的基本概念: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter06_数理统计的基本概念.md
-        - Chapter07_参数估计: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter07_参数估计.md
-        - Chapter08_假设检验: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter08_假设检验.md
-      - 马克思主义基本原理: ZJU_courses/Basic_Principles_of_Marxism/index.md
-      - 物理化学（EN）:
-        - ZJU_courses/Physical_Chemistry_(EN)/index.md
-        - 物化期末微雕: ZJU_courses/Physical_Chemistry_(EN)/Physical_Chemistry_Final_Micro_Notes.md
-      - 有机化学:
-        - ZJU_courses/Organic_Chemistry/index.md
-        - Chapter01_有机化合物分子结构基础: ZJU_courses/Organic_Chemistry/Chapter01_有机化合物分子结构基础.md
-        - Chapter02_脂肪烃和脂环烃: ZJU_courses/Organic_Chemistry/Chapter02_脂肪烃和脂环烃.md
-        - Chapter03_对映异构: ZJU_courses/Organic_Chemistry/Chapter03_对映异构.md
-        - Chapter04_碳碳重键的加成反应: ZJU_courses/Organic_Chemistry/Chapter04_碳碳重键的加成反应.md
-        - Chapter05_自由基反应: ZJU_courses/Organic_Chemistry/Chapter05_自由基反应.md
-        - Chapter06_芳香烃: ZJU_courses/Organic_Chemistry/Chapter06_芳香烃.md
-        - Chapter08_卤代烃: ZJU_courses/Organic_Chemistry/Chapter08_卤代烃.md
-        - Chapter09_醇酚醚: ZJU_courses/Organic_Chemistry/Chapter09_醇酚醚.md
-        - Chapter10_醛和酮-亲核加成反应: ZJU_courses/Organic_Chemistry/Chapter10_醛和酮-亲核加成反应.md
-        - Chapter11_羧酸及其衍生物: ZJU_courses/Organic_Chemistry/Chapter11_羧酸及其衍生物.md
-        - Chapter12_羰基α-碳上的反应: ZJU_courses/Organic_Chemistry/Chapter12_羰基α-碳上的反应.md
-        - Chapter13_胺及其衍生物: ZJU_courses/Organic_Chemistry/Chapter13_胺及其衍生物.md
-        - Chapter14_杂环化合物: ZJU_courses/Organic_Chemistry/Chapter14_杂环化合物.md
-        - Chapter15_生物有机化学(Ⅰ)-碳水化合物: ZJU_courses/Organic_Chemistry/Chapter15_生物有机化学(Ⅰ)-碳水化合物.md
-        - Chapter16_生物有机化学(Ⅱ)-氨基酸、肽、蛋白质及核酸: ZJU_courses/Organic_Chemistry/Chapter16_生物有机化学(Ⅱ)-氨基酸、肽、蛋白质及核酸.md
-    - 25-26春夏:
-      - 传播心理学: ZJU_courses/Communication_Psychology/index.md
-      - 大学化学实验（P）: ZJU_courses/College_Chemistry_Experiment_(P)/index.md
-      - 电工电子学及实验: ZJU_courses/Electrical_and_Electronic_Engineering_with_Lab/index.md
-      - 高分子化学（乙）: ZJU_courses/Polymer_Chemistry_(B)/index.md
-      - 化工热力学: ZJU_courses/Chemical_Engineering_Thermodynamics/index.md
-      - 化工原理（甲）Ⅰ: ZJU_courses/Principles_of_Chemical_Engineering_I/index.md
-      - 化工原理（甲）Ⅱ: ZJU_courses/Principles_of_Chemical_Engineering_II/index.md
-      - 毛泽东思想和中国特色社会主义理论体系概论: ZJU_courses/Mao_Zedong_Thought_and_Socialism_Theory/index.md
-      - 习近平新时代中国特色社会主义思想概论: ZJU_courses/Xi_Jinping_Thought_Introduction/index.md
+    - 24-25春夏: ZJU_courses/semesters/24-25-spring-summer.md
+    - 常微分方程: ZJU_courses/Ordinary_Differential_Equation/index.md
+    - 大学化学实验（A）:
+      - ZJU_courses/College_Chemistry_Experiment_(A)/index.md
+      - 大化A实验笔记: ZJU_courses/College_Chemistry_Experiment_(A)/CCE(A)_Notes.md
+      - 大化A期末整理: ZJU_courses/College_Chemistry_Experiment_(A)/Final_review_of_CCE(A).md
+    - 分析化学（乙）: ZJU_courses/Analytical_Chemistry_(B)/index.md
+    - 工程训练：WEDM: ZJU_courses/Engineering_Training/24-25_Spring-Summer_Engineering_Training_WEDM.md
+    - 奇妙分子与科学创新: ZJU_courses/Wonderful_Molecule/Wonderful_Molecule.md
+    - 人工智能基础（A）:
+      - ZJU_courses/Fundamentals_of_AI_(A)/index.md
+      - 人工智能基础(A)-lab3-sklearn-学习指南: ZJU_courses/Fundamentals_of_AI_(A)/Fundamentals_of_AI_lab03.md
+    - 25-26秋冬: ZJU_courses/semesters/25-26-fall-winter.md
+    - 大学物理实验:
+      - ZJU_courses/College_Physics_Experiment/index.md
+      - 大物实验期末复习: ZJU_courses/College_Physics_Experiment/Final_Review_of_CPE.md
+    - 大学物理（乙）Ⅱ:
+      - ZJU_courses/College_Physics_Ⅱ_(B)/index.md
+      - 电磁学: ZJU_courses/College_Physics_Ⅱ_(B)/Electromagnetism_CPⅡ.md
+      - 光学: ZJU_courses/College_Physics_Ⅱ_(B)/Optics_CPⅡ.md
+      - 原子物理基础: ZJU_courses/College_Physics_Ⅱ_(B)/Fundamentals_of_atomic_mechanics_CPⅡ.md
+      - 量子力学基础: ZJU_courses/College_Physics_Ⅱ_(B)/Fundamentals_of_quantum_mechanics_CPⅡ.md
+    - 概率论与数理统计:
+      - ZJU_courses/Probability_Theory_and_Mathematical_Statistics/index.md
+      - Chapter01_概率论的基本概念: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter01_概率论的基本概念.md
+      - Chapter02_随机变量及其概率分布: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter02_随机变量及其概率分布.md
+      - Chapter03_多元随机变量及其分布: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter03_多元随机变量及其分布.md
+      - Chapter04_随机变量的数字特征: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter04_随机变量的数字特征.md
+      - Chapter05_大数定律和中心极限定理: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter05_大数定律和中心极限定理.md
+      - Chapter06_数理统计的基本概念: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter06_数理统计的基本概念.md
+      - Chapter07_参数估计: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter07_参数估计.md
+      - Chapter08_假设检验: ZJU_courses/Probability_Theory_and_Mathematical_Statistics/Chapter08_假设检验.md
+    - 马克思主义基本原理: ZJU_courses/Basic_Principles_of_Marxism/index.md
+    - 物理化学（EN）:
+      - ZJU_courses/Physical_Chemistry_(EN)/index.md
+      - 物化期末微雕: ZJU_courses/Physical_Chemistry_(EN)/Physical_Chemistry_Final_Micro_Notes.md
+    - 有机化学:
+      - ZJU_courses/Organic_Chemistry/index.md
+      - Chapter01_有机化合物分子结构基础: ZJU_courses/Organic_Chemistry/Chapter01_有机化合物分子结构基础.md
+      - Chapter02_脂肪烃和脂环烃: ZJU_courses/Organic_Chemistry/Chapter02_脂肪烃和脂环烃.md
+      - Chapter03_对映异构: ZJU_courses/Organic_Chemistry/Chapter03_对映异构.md
+      - Chapter04_碳碳重键的加成反应: ZJU_courses/Organic_Chemistry/Chapter04_碳碳重键的加成反应.md
+      - Chapter05_自由基反应: ZJU_courses/Organic_Chemistry/Chapter05_自由基反应.md
+      - Chapter06_芳香烃: ZJU_courses/Organic_Chemistry/Chapter06_芳香烃.md
+      - Chapter08_卤代烃: ZJU_courses/Organic_Chemistry/Chapter08_卤代烃.md
+      - Chapter09_醇酚醚: ZJU_courses/Organic_Chemistry/Chapter09_醇酚醚.md
+      - Chapter10_醛和酮-亲核加成反应: ZJU_courses/Organic_Chemistry/Chapter10_醛和酮-亲核加成反应.md
+      - Chapter11_羧酸及其衍生物: ZJU_courses/Organic_Chemistry/Chapter11_羧酸及其衍生物.md
+      - Chapter12_羰基α-碳上的反应: ZJU_courses/Organic_Chemistry/Chapter12_羰基α-碳上的反应.md
+      - Chapter13_胺及其衍生物: ZJU_courses/Organic_Chemistry/Chapter13_胺及其衍生物.md
+      - Chapter14_杂环化合物: ZJU_courses/Organic_Chemistry/Chapter14_杂环化合物.md
+      - Chapter15_生物有机化学(Ⅰ)-碳水化合物: ZJU_courses/Organic_Chemistry/Chapter15_生物有机化学(Ⅰ)-碳水化合物.md
+      - Chapter16_生物有机化学(Ⅱ)-氨基酸、肽、蛋白质及核酸: ZJU_courses/Organic_Chemistry/Chapter16_生物有机化学(Ⅱ)-氨基酸、肽、蛋白质及核酸.md
+    - 25-26春夏: ZJU_courses/semesters/25-26-spring-summer.md
+    - 传播心理学: ZJU_courses/Communication_Psychology/index.md
+    - 大学化学实验（P）: ZJU_courses/College_Chemistry_Experiment_(P)/index.md
+    - 电工电子学及实验: ZJU_courses/Electrical_and_Electronic_Engineering_with_Lab/index.md
+    - 高分子化学（乙）: ZJU_courses/Polymer_Chemistry_(B)/index.md
+    - 化工热力学: ZJU_courses/Chemical_Engineering_Thermodynamics/index.md
+    - 化工原理（甲）Ⅰ: ZJU_courses/Principles_of_Chemical_Engineering_I/index.md
+    - 化工原理（甲）Ⅱ: ZJU_courses/Principles_of_Chemical_Engineering_II/index.md
+    - 毛泽东思想和中国特色社会主义理论体系概论: ZJU_courses/Mao_Zedong_Thought_and_Socialism_Theory/index.md
+    - 习近平新时代中国特色社会主义思想概论: ZJU_courses/Xi_Jinping_Thought_Introduction/index.md
   - Notes:
     - notes/index.md
     - 科研导论01_by小博士Awake: notes/SRN01.md
