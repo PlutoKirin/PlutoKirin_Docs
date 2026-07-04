@@ -8,6 +8,7 @@ tags:
 author: PlutoKirin
 summary: Organic_Chemistry_Chapter13
 ---
+# Why I Create ZJU Course Notes
 
 入学 ZJU 一年以来，在 CC98 与各位优秀学长姐的个人网站上获取到了不少的学习资源，因此个人也想将自己的学习经验整理成文档供他人借鉴。
 

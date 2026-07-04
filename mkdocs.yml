@@ -54,6 +54,7 @@ plugins:
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
   - js/relative-time.js
+  - js/nav-expand.js
 
 # Markdown Extensions
 markdown_extensions:
