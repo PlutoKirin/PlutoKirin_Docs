@@ -1,30 +1,35 @@
 // Expand semester-level sections by default, with localStorage persistence
+// Also marks semester nav items as non-clickable toggles
 (function () {
   var STORAGE_KEY = 'mkdocs-nav-expand';
   var semesterPattern = /^\d{2}-\d{2}(春|夏|秋冬|春夏)$/;
 
-  // Load saved toggle states
   var saved = {};
   try {
     saved = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
   } catch (e) {}
 
-  // Apply saved/initial state and listen for changes
   function initToggles() {
     var toggles = document.querySelectorAll('.md-nav__toggle');
     var stateChanged = false;
 
     toggles.forEach(function (toggle) {
-      var label = toggle.closest('.md-nav__item--nested');
+      var li = toggle.closest('.md-nav__item--nested');
+      if (!li) return;
+      var label = li.querySelector('.md-nav__link');
       if (!label) return;
-      var link = label.querySelector('.md-nav__link');
-      if (!link) return;
-      var key = link.textContent.trim();
+      var key = label.textContent.trim();
+      var isSemester = semesterPattern.test(key);
+
+      // Mark semester sections for CSS styling
+      if (isSemester) {
+        li.classList.add('md-nav__item--semester');
+      }
 
       // Determine initial state: saved > semester default > collapsed
       if (key in saved) {
         toggle.checked = saved[key];
-      } else if (semesterPattern.test(key)) {
+      } else if (isSemester) {
         toggle.checked = true;
         saved[key] = true;
         stateChanged = true;
@@ -39,7 +44,6 @@
       });
     });
 
-    // Save defaults if we set any
     if (stateChanged) {
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
