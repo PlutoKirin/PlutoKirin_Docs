@@ -28,3 +28,11 @@
     fill: var(--md-default-fg-color--lighter);
     /* 和文字颜色统一 */
 }
+
+/* Semester page links in nav — bold + divider between semester groups */
+.md-nav__link--semester {
+    font-weight: 700 !important;
+    margin-top: 0.75em;
+    padding-top: 0.5em;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+}

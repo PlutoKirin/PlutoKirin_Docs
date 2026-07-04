@@ -12,7 +12,7 @@
     document.querySelectorAll('.md-nav__link[href]').forEach(function (link) {
       var href = link.getAttribute('href');
       if (href && href.indexOf('/semesters/') !== -1) {
-        link.style.fontWeight = '600';
+        link.classList.add('md-nav__link--semester');
       }
     });
 
