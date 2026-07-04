@@ -28,8 +28,3 @@
     fill: var(--md-default-fg-color--lighter);
     /* 和文字颜色统一 */
 }
-
-/* Semester nav sections — non-clickable toggle, cursor indicates toggle-only */
-.md-nav__item--semester > .md-nav__link {
-    cursor: default;
-}
