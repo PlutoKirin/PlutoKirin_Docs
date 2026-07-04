@@ -29,10 +29,14 @@
     /* 和文字颜色统一 */
 }
 
-/* Semester page links in nav — bold + divider between semester groups */
+/* Semester page links — CSS href match (primary) + JS class (fallback for relative paths) */
+a[href*="semesters"],
 .md-nav__link--semester {
     font-weight: 700 !important;
+}
+.md-nav__item:has(> a[href*="semesters"]),
+.md-nav__item:has(> .md-nav__link--semester) {
+    border-top: 1px solid var(--md-default-fg-color--lightest);
     margin-top: 0.75em;
     padding-top: 0.5em;
-    border-top: 1px solid var(--md-default-fg-color--lightest);
 }
