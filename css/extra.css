@@ -43,6 +43,18 @@
     /* 和文字颜色统一 */
 }
 
+/* Center tables and images */
+.md-typeset__scrollwrap,
+.md-typeset__table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.md-typeset img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Semester page links — CSS href match (primary) + JS class (fallback for relative paths) */
 a[href*="semesters"],
 .md-nav__link--semester {
