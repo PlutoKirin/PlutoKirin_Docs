@@ -1,15 +1,23 @@
-/* LXGW WenKai Mono — site-wide font */
+/* LXGW WenKai Mono — desktop only (25MB TTF too large for mobile) */
 @font-face {
     font-family: "LXGW WenKai Mono";
     src: url("../fonts/LXGWWenKaiMono-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
 }
 
 :root {
-    --md-text-font: "LXGW WenKai Mono", "Noto Sans SC", sans-serif;
-    --md-code-font: "LXGW WenKai Mono", "Fira Code", monospace;
+    --md-text-font: "LXGW WenKai Mono", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    --md-code-font: "LXGW WenKai Mono", "Fira Code", "SF Mono", "Consolas", monospace;
+}
+
+/* Mobile: skip custom font entirely, use fast system fonts */
+@media (max-width: 768px) {
+    :root {
+        --md-text-font: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+        --md-code-font: "SF Mono", "Fira Code", "Consolas", monospace;
+    }
 }
 
 .doc-footer-note {
